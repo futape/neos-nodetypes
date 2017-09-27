@@ -1,0 +1,16 @@
+{
+    "name": "futape/neos-nodetypes",
+    "type": "neos-plugin",
+    "authors": [
+        {
+            "name": "Lucas Krause",
+            "email": "dev@futape.de"
+        }
+    ],
+    "require": {
+    	"neos/neos": "*",
+        "neos/nodetypes": "*",
+        "futape/neos": "*",
+        "futape/neos-bootstrap": "*"
+    }
+}

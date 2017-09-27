@@ -1,0 +1,3 @@
+prototype(Neos.NodeTypes:Page) < prototype(Futape.NodeTypes:AbstractPage) {
+	templatePath = 'resource://Futape.NodeTypes/Private/Fusion/Overrides/Neos_NodeTypes_Page/Page.html'
+}

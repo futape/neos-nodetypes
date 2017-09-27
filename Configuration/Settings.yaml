@@ -1,0 +1,10 @@
+Neos:
+  Neos:
+    fusion:
+      autoInclude:
+        Futape.NodeTypes: true
+    userInterface:
+      translation:
+        autoInclude:
+          Futape.NodeTypes:
+            - 'NodeTypes/*'

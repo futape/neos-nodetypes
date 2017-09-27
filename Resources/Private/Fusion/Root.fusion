@@ -1,0 +1,8 @@
+include: **/*.fusion
+
+root {
+	default {
+		type = ${node.nodeType.name + '.Document'}
+		renderPath >
+	}
+}

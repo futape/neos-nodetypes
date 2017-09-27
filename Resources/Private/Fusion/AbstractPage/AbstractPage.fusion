@@ -1,0 +1,12 @@
+prototype(Futape.NodeTypes:AbstractPage) < prototype(Neos.Fusion:Template) {
+    templatePath = Neos.Fusion:Value {
+        nodeTypeNameParts = ${String.split(node.nodeType.name, ':')}
+        package = ${this.nodeTypeNameParts[0]}
+        file = ${Array.join(Array.slice(this.nodeTypeNameParts, 1), ':')}
+        value = ${'resource://' + this.package + '/Private/Fusion/' + this.file + '/' + this.file + '.html'}
+    }
+
+    main = Neos.Neos:PrimaryContent {
+    	nodePath = 'main'
+	}
+}

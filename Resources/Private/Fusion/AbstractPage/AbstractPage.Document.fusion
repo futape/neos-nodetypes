@@ -1,0 +1,37 @@
+prototype(Futape.NodeTypes:AbstractPage.Document) < prototype(Futape.Neos:Page) {
+	head {
+		stylesheets {
+			main = Neos.Fusion:Tag {
+				tagName = 'link'
+				attributes {
+					rel = 'stylesheet'
+					href = Neos.Fusion:ResourceUri {
+    					path = 'resource://Futape.NodeTypes/Public/Styles/main.css'
+					}
+				}
+			}
+		}
+	}
+
+    body {
+    	templatePath = 'resource://Futape.NodeTypes/Private/Fusion/AbstractPage/AbstractPage.Document.html'
+        sectionName = 'main'
+
+        content = Neos.Fusion:Renderer {
+        	type = ${node.nodeType.name}
+    	}
+
+    	javascripts {
+    		after {
+    			main = Neos.Fusion:Tag {
+    				tagName = 'script'
+    				attributes {
+    					src = Neos.Fusion:ResourceUri {
+	    					path = 'resource://Futape.NodeTypes/Public/Javascript/main.js'
+    					}
+    				}
+    			}
+    		}
+    	}
+    }
+}

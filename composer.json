@@ -8,9 +8,9 @@
         }
     ],
     "require": {
-    	"neos/neos": "*",
-        "neos/nodetypes": "*",
-        "futape/neos": "*",
-        "futape/neos-bootstrap": "*"
+    	"neos/neos": "^3.1.0",
+        "neos/nodetypes": "^3.1.0",
+        "futape/neos": "^1.0.0",
+        "futape/neos-bootstrap": "^1.0.0"
     }
 }

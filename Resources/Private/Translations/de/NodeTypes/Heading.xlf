@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
+	<file original="" product-name="Futape.NodeTypes" source-language="en" datatype="plaintext" target-language="de">
+		<body>
+			<trans-unit id="ui.label" xml:space="preserve" approved="yes">
+				<source>Heading</source>
+				<target xml:lang="de">Überschrift</target>
+			</trans-unit>
+			<trans-unit id="groups.heading" xml:space="preserve" approved="yes">
+				<source>Heading</source>
+				<target xml:lang="de">Überschrift</target>
+			</trans-unit>
+
+			<trans-unit id="properties.title.aloha.placeholder" xml:space="preserve" approved="yes">
+				<source>Title</source>
+				<target xml:lang="de">Titel</target>
+			</trans-unit>
+
+			<trans-unit id="properties.level" xml:space="preserve" approved="yes">
+				<source>Level</source>
+				<target xml:lang="de">Ebene</target>
+			</trans-unit>
+			<trans-unit id="properties.level.selectBoxEditor.values.1" xml:space="preserve" approved="yes">
+				<source>H1</source>
+				<target xml:lang="de">H1</target>
+			</trans-unit>
+			<trans-unit id="properties.level.selectBoxEditor.values.2" xml:space="preserve" approved="yes">
+				<source>H2</source>
+				<target xml:lang="de">H2</target>
+			</trans-unit>
+			<trans-unit id="properties.level.selectBoxEditor.values.3" xml:space="preserve" approved="yes">
+				<source>H3</source>
+				<target xml:lang="de">H3</target>
+			</trans-unit>
+			<trans-unit id="properties.level.selectBoxEditor.values.4" xml:space="preserve" approved="yes">
+				<source>H4</source>
+				<target xml:lang="de">H4</target>
+			</trans-unit>
+			<trans-unit id="properties.level.selectBoxEditor.values.5" xml:space="preserve" approved="yes">
+				<source>H5</source>
+				<target xml:lang="de">H5</target>
+			</trans-unit>
+			<trans-unit id="properties.level.selectBoxEditor.values.6" xml:space="preserve" approved="yes">
+				<source>H6</source>
+				<target xml:lang="de">H6</target>
+			</trans-unit>
+			<trans-unit id="properties.level.selectBoxEditor.values.11" xml:space="preserve" approved="yes">
+				<source>Display Heading 1</source>
+				<target xml:lang="de">Seitentitel 1</target>
+			</trans-unit>
+			<trans-unit id="properties.level.selectBoxEditor.values.12" xml:space="preserve" approved="yes">
+				<source>Display Heading 2</source>
+				<target xml:lang="de">Seitentitel 2</target>
+			</trans-unit>
+			<trans-unit id="properties.level.selectBoxEditor.values.13" xml:space="preserve" approved="yes">
+				<source>Display Heading 3</source>
+				<target xml:lang="de">Seitentitel 3</target>
+			</trans-unit>
+			<trans-unit id="properties.level.selectBoxEditor.values.14" xml:space="preserve" approved="yes">
+				<source>Display Heading 4</source>
+				<target xml:lang="de">Seitentitel 4</target>
+			</trans-unit>
+		</body>
+	</file>
+</xliff>

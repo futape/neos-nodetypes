@@ -1,0 +1,17 @@
+prototype(Futape.NodeTypes:Heading) < prototype(Neos.Fusion:Value) {
+    value = Neos.Fusion:Renderer {
+        type = ${q(node).property('level') > 10 ? 'Futape.Bootstrap:DisplayHeading' : 'Futape.Bootstrap:Heading'}
+        element {
+            level = ${q(node).property('level') % 10}
+            tagName = 'div'
+            content = Neos.Fusion:Tag {
+                tagName = 'div'
+                content = ${q(node).property('title')}
+
+                @process.editable = Neos.Neos:ContentElementEditable {
+                    property = 'title'
+                }
+            }
+        }
+    }
+}

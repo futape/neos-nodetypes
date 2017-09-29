@@ -1,0 +1,7 @@
+prototype(Futape.NodeTypes:Heading2) < prototype(Futape.NodeTypes:Heading) {
+    value {
+    	element {
+        	tagName = 'h2'
+		}
+    }
+}

@@ -1,0 +1,21 @@
+prototype(Futape.NodeTypes:Text) {
+	templatePath = 'resource://Futape.NodeTypes/Private/Fusion/Text/Text.html'
+
+	attributes {
+		class = Neos.Fusion:Value {
+			classes = Neos.Fusion:RawArray {
+				lead = 'lead'
+			}
+			value = ${this.classes[q(node).property('style')]}
+		}
+	}
+
+    text = Neos.Fusion:Tag {
+    	tagName = 'div'
+    	content = ${q(node).property('text')}
+
+    	@process.editable = Neos.Neos:ContentElementEditable {
+    		property = 'text'
+    	}
+    }
+}

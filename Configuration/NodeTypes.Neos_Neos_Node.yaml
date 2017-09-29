@@ -1,0 +1,14 @@
+'Neos.Neos:Node':
+  ui:
+    inspector:
+      tabs:
+        'settings':
+          label: 'Futape.NodeTypes:Overrides.Neos_Neos_Node:tabs.settings'
+          position: 'start 9999'
+          icon: 'icon-pencil'
+      groups:
+        'settings':
+          label: 'Futape.NodeTypes:Overrides.Neos_Neos_Node:groups.settings'
+          position: 'end'
+          icon: 'icon-pencil'
+          tab: 'settings'

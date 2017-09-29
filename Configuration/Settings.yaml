@@ -8,3 +8,4 @@ Neos:
         autoInclude:
           Futape.NodeTypes:
             - 'NodeTypes/*'
+            - 'Overrides/*'

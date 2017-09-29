@@ -22,6 +22,15 @@
         inspector:
           group: 'image'
           position: 10
+    'alt':
+      type: 'string'
+      defaultValue: ''
+      ui:
+        label: 'i18n'
+        reloadIfChanged: true
+        inspector:
+          group: 'image'
+          position: 20
     'style':
       type: 'string'
       defaultValue: 'normal'
@@ -30,7 +39,7 @@
         reloadIfChanged: true
         inspector:
           group: 'image'
-          position: 20
+          position: 30
           editor: 'Neos.Neos/Inspector/Editors/SelectBoxEditor'
           editorOptions:
             values:

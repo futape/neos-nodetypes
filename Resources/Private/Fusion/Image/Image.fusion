@@ -6,6 +6,7 @@ prototype(Futape.NodeTypes:Image) < prototype(Neos.Fusion:Value) {
 			src = Neos.Neos:ImageUri {
 				asset = ${q(node).property('image')}
 			}
+			alt = ${q(node).property('alt')}
 		}
 	}
 }

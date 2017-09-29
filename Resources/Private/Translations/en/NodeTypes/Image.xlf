@@ -12,6 +12,9 @@
 			<trans-unit id="properties.image" xml:space="preserve" approved="yes">
 				<source>Image</source>
 			</trans-unit>
+			<trans-unit id="properties.alt" xml:space="preserve" approved="yes">
+				<source>Alternative Text</source>
+			</trans-unit>
 
 			<trans-unit id="properties.style" xml:space="preserve" approved="yes">
 				<source>Style</source>

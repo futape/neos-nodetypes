@@ -22,9 +22,6 @@
 			<trans-unit id="properties.style.selectBoxEditor.values.thumbnail" xml:space="preserve" approved="yes">
 				<source>Thumbnail</source>
 			</trans-unit>
-			<trans-unit id="properties.style.selectBoxEditor.values.rounded" xml:space="preserve" approved="yes">
-				<source>Rounded</source>
-			</trans-unit>
 		</body>
 	</file>
 </xliff>

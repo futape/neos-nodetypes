@@ -116,6 +116,18 @@ prototype(Neos.Neos:Content) {
 
 				@if.notDefault = ${q(node).property('border') != 'default'}
 			}
+
+			# Shape
+			@process.addShape {
+				classes = Neos.Fusion:RawArray {
+					rounded = ['rounded']
+					circle = ['rounded-circle']
+					rectangular = ['rounded-0']
+				}
+				expression = ${Array.concat(Type.isArray(value) ? value : [value], this.classes[q(node).property('shape')])}
+
+				@if.notDefault = ${q(node).property('shape') != 'default'}
+			}
 		}
 
 		style {

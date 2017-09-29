@@ -540,6 +540,28 @@
 				<source>None</source>
 				<target xml:lang="de">Keine</target>
 			</trans-unit>
+
+			<trans-unit id="groups.shape" xml:space="preserve" approved="yes">
+				<source>Shape</source>
+				<target xml:lang="de">Form</target>
+			</trans-unit>
+
+			<trans-unit id="properties.shape.selectBoxEditor.values.default" xml:space="preserve" approved="yes">
+				<source>Default</source>
+				<target xml:lang="de">Standard</target>
+			</trans-unit>
+			<trans-unit id="properties.shape.selectBoxEditor.values.rounded" xml:space="preserve" approved="yes">
+				<source>Rounded</source>
+				<target xml:lang="de">Abgerundet</target>
+			</trans-unit>
+			<trans-unit id="properties.shape.selectBoxEditor.values.circle" xml:space="preserve" approved="yes">
+				<source>Circle</source>
+				<target xml:lang="de">Kreis</target>
+			</trans-unit>
+			<trans-unit id="properties.shape.selectBoxEditor.values.rectangular" xml:space="preserve" approved="yes">
+				<source>Rectangular</source>
+				<target xml:lang="de">Rechteckig</target>
+			</trans-unit>
 		</body>
 	</file>
 </xliff>

@@ -28,10 +28,6 @@
 				<source>Thumbnail</source>
 				<target xml:lang="de">Thumbnail</target>
 			</trans-unit>
-			<trans-unit id="properties.style.selectBoxEditor.values.rounded" xml:space="preserve" approved="yes">
-				<source>Rounded</source>
-				<target xml:lang="de">Abgerundet</target>
-			</trans-unit>
 		</body>
 	</file>
 </xliff>

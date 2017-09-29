@@ -27,6 +27,11 @@
           position: 'after float'
           icon: 'icon-indent-right'
           tab: 'settings'
+        'shape':
+          label: 'i18n'
+          position: 'after border'
+          icon: 'icon-indent-right'
+          tab: 'settings'
   properties:
     'marginTop':
       type: 'integer'
@@ -451,3 +456,23 @@
                 label: 'Futape.NodeTypes:Overrides.Neos_Neos_Content:properties.border.selectBoxEditor.values.dark'
               none:
                 label: 'Futape.NodeTypes:Overrides.Neos_Neos_Content:properties.border.selectBoxEditor.values.none'
+    'shape':
+      type: 'string'
+      defaultValue: 'default'
+      ui:
+        label: 'Futape.NodeTypes:Overrides.Neos_Neos_Content:properties.shape'
+        reloadIfChanged: true
+        inspector:
+          group: 'shape'
+          position: 10
+          editor: 'Neos.Neos/Inspector/Editors/SelectBoxEditor'
+          editorOptions:
+            values:
+              default:
+                label: 'Futape.NodeTypes:Overrides.Neos_Neos_Content:properties.shape.selectBoxEditor.values.default'
+              rounded:
+                label: 'Futape.NodeTypes:Overrides.Neos_Neos_Content:properties.shape.selectBoxEditor.values.rounded'
+              circle:
+                label: 'Futape.NodeTypes:Overrides.Neos_Neos_Content:properties.shape.selectBoxEditor.values.circle'
+              rectangular:
+                label: 'Futape.NodeTypes:Overrides.Neos_Neos_Content:properties.shape.selectBoxEditor.values.rectangular'

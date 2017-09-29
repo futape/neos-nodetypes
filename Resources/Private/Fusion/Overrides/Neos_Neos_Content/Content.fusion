@@ -89,6 +89,33 @@ prototype(Neos.Neos:Content) {
 
 				@if.notDefault = ${q(node).property('float') != 'default'}
 			}
+
+			# Border
+			@process.addBorder {
+				classes = Neos.Fusion:Case {
+					none {
+						condition = ${q(node).property('border') == 'none'}
+						renderer = ${['border-0']}
+					}
+
+					border {
+						condition = ${q(node).property('border') == 'border'}
+						renderer = ${['border']}
+
+						@position = 'after none'
+					}
+
+					else {
+						condition = ${q(node).property('border') == 'border'}
+						renderer = ${['border', 'border-' + q(node).property('border')]}
+
+						@position = 'end'
+					}
+				}
+				expression = ${Array.concat(Type.isArray(value) ? value : [value], this.classes)}
+
+				@if.notDefault = ${q(node).property('border') != 'default'}
+			}
 		}
 
 		style {

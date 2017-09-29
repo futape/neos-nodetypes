@@ -22,6 +22,11 @@
           position: 'after background'
           icon: 'icon-indent-right'
           tab: 'settings'
+        'border':
+          label: 'i18n'
+          position: 'after float'
+          icon: 'icon-indent-right'
+          tab: 'settings'
   properties:
     'marginTop':
       type: 'integer'
@@ -410,3 +415,39 @@
                 label: 'Futape.NodeTypes:Overrides.Neos_Neos_Content:properties.float.selectBoxEditor.values.right'
               none:
                 label: 'Futape.NodeTypes:Overrides.Neos_Neos_Content:properties.float.selectBoxEditor.values.none'
+    'border':
+      type: 'string'
+      defaultValue: 'default'
+      ui:
+        label: 'Futape.NodeTypes:Overrides.Neos_Neos_Content:properties.border'
+        reloadIfChanged: true
+        inspector:
+          group: 'border'
+          position: 10
+          editor: 'Neos.Neos/Inspector/Editors/SelectBoxEditor'
+          editorOptions:
+            values:
+              default:
+                label: 'Futape.NodeTypes:Overrides.Neos_Neos_Content:properties.border.selectBoxEditor.values.default'
+              border:
+                label: 'Futape.NodeTypes:Overrides.Neos_Neos_Content:properties.border.selectBoxEditor.values.border'
+              primary:
+                label: 'Futape.NodeTypes:Overrides.Neos_Neos_Content:properties.border.selectBoxEditor.values.primary'
+              secondary:
+                label: 'Futape.NodeTypes:Overrides.Neos_Neos_Content:properties.border.selectBoxEditor.values.secondary'
+              success:
+                label: 'Futape.NodeTypes:Overrides.Neos_Neos_Content:properties.border.selectBoxEditor.values.success'
+              danger:
+                label: 'Futape.NodeTypes:Overrides.Neos_Neos_Content:properties.border.selectBoxEditor.values.danger'
+              warning:
+                label: 'Futape.NodeTypes:Overrides.Neos_Neos_Content:properties.border.selectBoxEditor.values.warning'
+              info:
+                label: 'Futape.NodeTypes:Overrides.Neos_Neos_Content:properties.border.selectBoxEditor.values.info'
+              white:
+                label: 'Futape.NodeTypes:Overrides.Neos_Neos_Content:properties.border.selectBoxEditor.values.white'
+              light:
+                label: 'Futape.NodeTypes:Overrides.Neos_Neos_Content:properties.border.selectBoxEditor.values.light'
+              dark:
+                label: 'Futape.NodeTypes:Overrides.Neos_Neos_Content:properties.border.selectBoxEditor.values.dark'
+              none:
+                label: 'Futape.NodeTypes:Overrides.Neos_Neos_Content:properties.border.selectBoxEditor.values.none'

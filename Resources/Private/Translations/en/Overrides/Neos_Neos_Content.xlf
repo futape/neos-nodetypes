@@ -370,6 +370,47 @@
 			<trans-unit id="properties.float.selectBoxEditor.values.none" xml:space="preserve" approved="yes">
 				<source>Don't Float</source>
 			</trans-unit>
+
+			<trans-unit id="groups.border" xml:space="preserve" approved="yes">
+				<source>Border</source>
+			</trans-unit>
+
+			<trans-unit id="properties.border.selectBoxEditor.values.default" xml:space="preserve" approved="yes">
+				<source>Default</source>
+			</trans-unit>
+			<trans-unit id="properties.border.selectBoxEditor.values.border" xml:space="preserve" approved="yes">
+				<source>Default Color</source>
+			</trans-unit>
+			<trans-unit id="properties.border.selectBoxEditor.values.primary" xml:space="preserve" approved="yes">
+				<source>Primary Color</source>
+			</trans-unit>
+			<trans-unit id="properties.border.selectBoxEditor.values.secondary" xml:space="preserve" approved="yes">
+				<source>Secondary Color</source>
+			</trans-unit>
+			<trans-unit id="properties.border.selectBoxEditor.values.success" xml:space="preserve" approved="yes">
+				<source>"Success" Color</source>
+			</trans-unit>
+			<trans-unit id="properties.border.selectBoxEditor.values.danger" xml:space="preserve" approved="yes">
+				<source>"Danger" Color</source>
+			</trans-unit>
+			<trans-unit id="properties.border.selectBoxEditor.values.warning" xml:space="preserve" approved="yes">
+				<source>"Warning" Color</source>
+			</trans-unit>
+			<trans-unit id="properties.border.selectBoxEditor.values.info" xml:space="preserve" approved="yes">
+				<source>"Info" Color</source>
+			</trans-unit>
+			<trans-unit id="properties.border.selectBoxEditor.values.white" xml:space="preserve" approved="yes">
+				<source>White</source>
+			</trans-unit>
+			<trans-unit id="properties.border.selectBoxEditor.values.light" xml:space="preserve" approved="yes">
+				<source>Light</source>
+			</trans-unit>
+			<trans-unit id="properties.border.selectBoxEditor.values.dark" xml:space="preserve" approved="yes">
+				<source>Dark</source>
+			</trans-unit>
+			<trans-unit id="properties.border.selectBoxEditor.values.none" xml:space="preserve" approved="yes">
+				<source>None</source>
+			</trans-unit>
 		</body>
 	</file>
 </xliff>

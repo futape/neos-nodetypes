@@ -486,6 +486,60 @@
 				<source>Don't Float</source>
 				<target xml:lang="de">Nicht umfließen</target>
 			</trans-unit>
+
+			<trans-unit id="groups.border" xml:space="preserve" approved="yes">
+				<source>Border</source>
+				<target xml:lang="de">Umrandung</target>
+			</trans-unit>
+
+			<trans-unit id="properties.border.selectBoxEditor.values.default" xml:space="preserve" approved="yes">
+				<source>Default</source>
+				<target xml:lang="de">Standard</target>
+			</trans-unit>
+			<trans-unit id="properties.border.selectBoxEditor.values.border" xml:space="preserve" approved="yes">
+				<source>Default Color</source>
+				<target xml:lang="de">Standardfarbe</target>
+			</trans-unit>
+			<trans-unit id="properties.border.selectBoxEditor.values.primary" xml:space="preserve" approved="yes">
+				<source>Primary Color</source>
+				<target xml:lang="de">Primärfarbe</target>
+			</trans-unit>
+			<trans-unit id="properties.border.selectBoxEditor.values.secondary" xml:space="preserve" approved="yes">
+				<source>Secondary Color</source>
+				<target xml:lang="de">Sekundärfarbe</target>
+			</trans-unit>
+			<trans-unit id="properties.border.selectBoxEditor.values.success" xml:space="preserve" approved="yes">
+				<source>"Success" Color</source>
+				<target xml:lang="de">"Erfolg" Farbe</target>
+			</trans-unit>
+			<trans-unit id="properties.border.selectBoxEditor.values.danger" xml:space="preserve" approved="yes">
+				<source>"Danger" Color</source>
+				<target xml:lang="de">"Gefahr" Farbe</target>
+			</trans-unit>
+			<trans-unit id="properties.border.selectBoxEditor.values.warning" xml:space="preserve" approved="yes">
+				<source>"Warning" Color</source>
+				<target xml:lang="de">"Warnung" Farbe</target>
+			</trans-unit>
+			<trans-unit id="properties.border.selectBoxEditor.values.info" xml:space="preserve" approved="yes">
+				<source>"Info" Color</source>
+				<target xml:lang="de">"Info" Farbe</target>
+			</trans-unit>
+			<trans-unit id="properties.border.selectBoxEditor.values.white" xml:space="preserve" approved="yes">
+				<source>White</source>
+				<target xml:lang="de">Weiß</target>
+			</trans-unit>
+			<trans-unit id="properties.border.selectBoxEditor.values.light" xml:space="preserve" approved="yes">
+				<source>Light</source>
+				<target xml:lang="de">Hell</target>
+			</trans-unit>
+			<trans-unit id="properties.border.selectBoxEditor.values.dark" xml:space="preserve" approved="yes">
+				<source>Dark</source>
+				<target xml:lang="de">Dunkel</target>
+			</trans-unit>
+			<trans-unit id="properties.border.selectBoxEditor.values.none" xml:space="preserve" approved="yes">
+				<source>None</source>
+				<target xml:lang="de">Keine</target>
+			</trans-unit>
 		</body>
 	</file>
 </xliff>

@@ -1,0 +1,42 @@
+'Futape.NodeTypes:Image':
+  superTypes:
+    'Neos.Neos:Content': true
+  ui:
+    group: 'general'
+    position: 5030
+    icon: 'icon-picture'
+    label: 'i18n'
+    inspector:
+      groups:
+        'image':
+          label: 'i18n'
+          position: 'start'
+          icon: 'icon-picture'
+          tab: 'settings'
+  properties:
+    'image':
+      type: 'Neos\Media\Domain\Model\ImageInterface'
+      ui:
+        label: 'i18n'
+        reloadIfChanged: true
+        inspector:
+          group: 'image'
+          position: 10
+    'style':
+      type: 'string'
+      defaultValue: 'normal'
+      ui:
+        label: 'i18n'
+        reloadIfChanged: true
+        inspector:
+          group: 'image'
+          position: 20
+          editor: 'Neos.Neos/Inspector/Editors/SelectBoxEditor'
+          editorOptions:
+            values:
+              normal:
+                label: 'i18n'
+              thumbnail:
+                label: 'i18n'
+              rounded:
+                label: 'i18n'

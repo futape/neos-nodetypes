@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
+	<file original="" product-name="Futape.NodeTypes" source-language="en" datatype="plaintext">
+		<body>
+			<trans-unit id="ui.label" xml:space="preserve" approved="yes">
+				<source>Image</source>
+			</trans-unit>
+			<trans-unit id="groups.image" xml:space="preserve" approved="yes">
+				<source>Image</source>
+			</trans-unit>
+
+			<trans-unit id="properties.image" xml:space="preserve" approved="yes">
+				<source>Image</source>
+			</trans-unit>
+
+			<trans-unit id="properties.style" xml:space="preserve" approved="yes">
+				<source>Style</source>
+			</trans-unit>
+			<trans-unit id="properties.style.selectBoxEditor.values.normal" xml:space="preserve" approved="yes">
+				<source>Normal</source>
+			</trans-unit>
+			<trans-unit id="properties.style.selectBoxEditor.values.thumbnail" xml:space="preserve" approved="yes">
+				<source>Thumbnail</source>
+			</trans-unit>
+			<trans-unit id="properties.style.selectBoxEditor.values.rounded" xml:space="preserve" approved="yes">
+				<source>Rounded</source>
+			</trans-unit>
+		</body>
+	</file>
+</xliff>

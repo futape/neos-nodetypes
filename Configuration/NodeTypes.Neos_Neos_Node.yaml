@@ -12,3 +12,9 @@
           position: 'end'
           icon: 'icon-pencil'
           tab: 'settings'
+  constraints:
+    nodeTypes:
+      'Neos.NodeTypes:Headline': false
+      'Neos.NodeTypes:Text': false
+      'Neos.NodeTypes:Image': false
+      'Neos.NodeTypes:TextWithImage': false

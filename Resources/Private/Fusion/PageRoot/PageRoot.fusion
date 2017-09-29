@@ -1,0 +1,1 @@
+prototype(Futape.NodeTypes:PageRoot) < prototype(Futape.NodeTypes:AbstractPage)

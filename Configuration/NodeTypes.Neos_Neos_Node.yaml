@@ -18,3 +18,4 @@
       'Neos.NodeTypes:Text': false
       'Neos.NodeTypes:Image': false
       'Neos.NodeTypes:TextWithImage': false
+      'Futape.NodeTypes:PageRoot': false

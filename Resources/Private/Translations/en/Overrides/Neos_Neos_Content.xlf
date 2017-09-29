@@ -1,0 +1,375 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
+	<file original="" product-name="Futape.NodeTypes" source-language="en" datatype="plaintext">
+		<body>
+			<trans-unit id="groups.spacing" xml:space="preserve" approved="yes">
+				<source>Spacing</source>
+			</trans-unit>
+
+			<trans-unit id="properties.marginTop" xml:space="preserve" approved="yes">
+				<source>Top Margin</source>
+			</trans-unit>
+			<trans-unit id="properties.marginTop.selectBoxEditor.values.-1" xml:space="preserve" approved="yes">
+				<source>Default</source>
+			</trans-unit>
+			<trans-unit id="properties.marginTop.selectBoxEditor.values.0" xml:space="preserve" approved="yes">
+				<source>None</source>
+			</trans-unit>
+			<trans-unit id="properties.marginTop.selectBoxEditor.values.1" xml:space="preserve" approved="yes">
+				<source>0.25x</source>
+			</trans-unit>
+			<trans-unit id="properties.marginTop.selectBoxEditor.values.2" xml:space="preserve" approved="yes">
+				<source>0.5x</source>
+			</trans-unit>
+			<trans-unit id="properties.marginTop.selectBoxEditor.values.3" xml:space="preserve" approved="yes">
+				<source>1x</source>
+			</trans-unit>
+			<trans-unit id="properties.marginTop.selectBoxEditor.values.4" xml:space="preserve" approved="yes">
+				<source>1.5x</source>
+			</trans-unit>
+			<trans-unit id="properties.marginTop.selectBoxEditor.values.5" xml:space="preserve" approved="yes">
+				<source>3x</source>
+			</trans-unit>
+
+			<trans-unit id="properties.marginBottom" xml:space="preserve" approved="yes">
+				<source>Bottom Margin</source>
+			</trans-unit>
+			<trans-unit id="properties.marginBottom.selectBoxEditor.values.-1" xml:space="preserve" approved="yes">
+				<source>Default</source>
+			</trans-unit>
+			<trans-unit id="properties.marginBottom.selectBoxEditor.values.0" xml:space="preserve" approved="yes">
+				<source>None</source>
+			</trans-unit>
+			<trans-unit id="properties.marginBottom.selectBoxEditor.values.1" xml:space="preserve" approved="yes">
+				<source>0.25x</source>
+			</trans-unit>
+			<trans-unit id="properties.marginBottom.selectBoxEditor.values.2" xml:space="preserve" approved="yes">
+				<source>0.5x</source>
+			</trans-unit>
+			<trans-unit id="properties.marginBottom.selectBoxEditor.values.3" xml:space="preserve" approved="yes">
+				<source>1x</source>
+			</trans-unit>
+			<trans-unit id="properties.marginBottom.selectBoxEditor.values.4" xml:space="preserve" approved="yes">
+				<source>1.5x</source>
+			</trans-unit>
+			<trans-unit id="properties.marginBottom.selectBoxEditor.values.5" xml:space="preserve" approved="yes">
+				<source>3x</source>
+			</trans-unit>
+
+			<trans-unit id="properties.marginLeft" xml:space="preserve" approved="yes">
+				<source>Left Margin</source>
+			</trans-unit>
+			<trans-unit id="properties.marginLeft.selectBoxEditor.values.-1" xml:space="preserve" approved="yes">
+				<source>Default</source>
+			</trans-unit>
+			<trans-unit id="properties.marginLeft.selectBoxEditor.values.0" xml:space="preserve" approved="yes">
+				<source>None</source>
+			</trans-unit>
+			<trans-unit id="properties.marginLeft.selectBoxEditor.values.1" xml:space="preserve" approved="yes">
+				<source>0.25x</source>
+			</trans-unit>
+			<trans-unit id="properties.marginLeft.selectBoxEditor.values.2" xml:space="preserve" approved="yes">
+				<source>0.5x</source>
+			</trans-unit>
+			<trans-unit id="properties.marginLeft.selectBoxEditor.values.3" xml:space="preserve" approved="yes">
+				<source>1x</source>
+			</trans-unit>
+			<trans-unit id="properties.marginLeft.selectBoxEditor.values.4" xml:space="preserve" approved="yes">
+				<source>1.5x</source>
+			</trans-unit>
+			<trans-unit id="properties.marginLeft.selectBoxEditor.values.5" xml:space="preserve" approved="yes">
+				<source>3x</source>
+			</trans-unit>
+
+			<trans-unit id="properties.marginRight" xml:space="preserve" approved="yes">
+				<source>Right Margin</source>
+			</trans-unit>
+			<trans-unit id="properties.marginRight.selectBoxEditor.values.-1" xml:space="preserve" approved="yes">
+				<source>Default</source>
+			</trans-unit>
+			<trans-unit id="properties.marginRight.selectBoxEditor.values.0" xml:space="preserve" approved="yes">
+				<source>None</source>
+			</trans-unit>
+			<trans-unit id="properties.marginRight.selectBoxEditor.values.1" xml:space="preserve" approved="yes">
+				<source>0.25x</source>
+			</trans-unit>
+			<trans-unit id="properties.marginRight.selectBoxEditor.values.2" xml:space="preserve" approved="yes">
+				<source>0.5x</source>
+			</trans-unit>
+			<trans-unit id="properties.marginRight.selectBoxEditor.values.3" xml:space="preserve" approved="yes">
+				<source>1x</source>
+			</trans-unit>
+			<trans-unit id="properties.marginRight.selectBoxEditor.values.4" xml:space="preserve" approved="yes">
+				<source>1.5x</source>
+			</trans-unit>
+			<trans-unit id="properties.marginRight.selectBoxEditor.values.5" xml:space="preserve" approved="yes">
+				<source>3x</source>
+			</trans-unit>
+
+			<trans-unit id="properties.paddingTop" xml:space="preserve" approved="yes">
+				<source>Top Padding</source>
+			</trans-unit>
+			<trans-unit id="properties.paddingTop.selectBoxEditor.values.-1" xml:space="preserve" approved="yes">
+				<source>Default</source>
+			</trans-unit>
+			<trans-unit id="properties.paddingTop.selectBoxEditor.values.0" xml:space="preserve" approved="yes">
+				<source>None</source>
+			</trans-unit>
+			<trans-unit id="properties.paddingTop.selectBoxEditor.values.1" xml:space="preserve" approved="yes">
+				<source>0.25x</source>
+			</trans-unit>
+			<trans-unit id="properties.paddingTop.selectBoxEditor.values.2" xml:space="preserve" approved="yes">
+				<source>0.5x</source>
+			</trans-unit>
+			<trans-unit id="properties.paddingTop.selectBoxEditor.values.3" xml:space="preserve" approved="yes">
+				<source>1x</source>
+			</trans-unit>
+			<trans-unit id="properties.paddingTop.selectBoxEditor.values.4" xml:space="preserve" approved="yes">
+				<source>1.5x</source>
+			</trans-unit>
+			<trans-unit id="properties.paddingTop.selectBoxEditor.values.5" xml:space="preserve" approved="yes">
+				<source>3x</source>
+			</trans-unit>
+
+			<trans-unit id="properties.paddingBottom" xml:space="preserve" approved="yes">
+				<source>Bottom Padding</source>
+			</trans-unit>
+			<trans-unit id="properties.paddingBottom.selectBoxEditor.values.-1" xml:space="preserve" approved="yes">
+				<source>Default</source>
+			</trans-unit>
+			<trans-unit id="properties.paddingBottom.selectBoxEditor.values.0" xml:space="preserve" approved="yes">
+				<source>None</source>
+			</trans-unit>
+			<trans-unit id="properties.paddingBottom.selectBoxEditor.values.1" xml:space="preserve" approved="yes">
+				<source>0.25x</source>
+			</trans-unit>
+			<trans-unit id="properties.paddingBottom.selectBoxEditor.values.2" xml:space="preserve" approved="yes">
+				<source>0.5x</source>
+			</trans-unit>
+			<trans-unit id="properties.paddingBottom.selectBoxEditor.values.3" xml:space="preserve" approved="yes">
+				<source>1x</source>
+			</trans-unit>
+			<trans-unit id="properties.paddingBottom.selectBoxEditor.values.4" xml:space="preserve" approved="yes">
+				<source>1.5x</source>
+			</trans-unit>
+			<trans-unit id="properties.paddingBottom.selectBoxEditor.values.5" xml:space="preserve" approved="yes">
+				<source>3x</source>
+			</trans-unit>
+
+			<trans-unit id="properties.paddingLeft" xml:space="preserve" approved="yes">
+				<source>Left Padding</source>
+			</trans-unit>
+			<trans-unit id="properties.paddingLeft.selectBoxEditor.values.-1" xml:space="preserve" approved="yes">
+				<source>Default</source>
+			</trans-unit>
+			<trans-unit id="properties.paddingLeft.selectBoxEditor.values.0" xml:space="preserve" approved="yes">
+				<source>None</source>
+			</trans-unit>
+			<trans-unit id="properties.paddingLeft.selectBoxEditor.values.1" xml:space="preserve" approved="yes">
+				<source>0.25x</source>
+			</trans-unit>
+			<trans-unit id="properties.paddingLeft.selectBoxEditor.values.2" xml:space="preserve" approved="yes">
+				<source>0.5x</source>
+			</trans-unit>
+			<trans-unit id="properties.paddingLeft.selectBoxEditor.values.3" xml:space="preserve" approved="yes">
+				<source>1x</source>
+			</trans-unit>
+			<trans-unit id="properties.paddingLeft.selectBoxEditor.values.4" xml:space="preserve" approved="yes">
+				<source>1.5x</source>
+			</trans-unit>
+			<trans-unit id="properties.paddingLeft.selectBoxEditor.values.5" xml:space="preserve" approved="yes">
+				<source>3x</source>
+			</trans-unit>
+
+			<trans-unit id="properties.paddingRight" xml:space="preserve" approved="yes">
+				<source>Right Padding</source>
+			</trans-unit>
+			<trans-unit id="properties.paddingRight.selectBoxEditor.values.-1" xml:space="preserve" approved="yes">
+				<source>Default</source>
+			</trans-unit>
+			<trans-unit id="properties.paddingRight.selectBoxEditor.values.0" xml:space="preserve" approved="yes">
+				<source>None</source>
+			</trans-unit>
+			<trans-unit id="properties.paddingRight.selectBoxEditor.values.1" xml:space="preserve" approved="yes">
+				<source>0.25x</source>
+			</trans-unit>
+			<trans-unit id="properties.paddingRight.selectBoxEditor.values.2" xml:space="preserve" approved="yes">
+				<source>0.5x</source>
+			</trans-unit>
+			<trans-unit id="properties.paddingRight.selectBoxEditor.values.3" xml:space="preserve" approved="yes">
+				<source>1x</source>
+			</trans-unit>
+			<trans-unit id="properties.paddingRight.selectBoxEditor.values.4" xml:space="preserve" approved="yes">
+				<source>1.5x</source>
+			</trans-unit>
+			<trans-unit id="properties.paddingRight.selectBoxEditor.values.5" xml:space="preserve" approved="yes">
+				<source>3x</source>
+			</trans-unit>
+
+			<trans-unit id="groups.text" xml:space="preserve" approved="yes">
+				<source>Text</source>
+			</trans-unit>
+
+			<trans-unit id="properties.textAlignment" xml:space="preserve" approved="yes">
+				<source>Alignment</source>
+			</trans-unit>
+			<trans-unit id="properties.textAlignment.selectBoxEditor.values.default" xml:space="preserve" approved="yes">
+				<source>Default</source>
+			</trans-unit>
+			<trans-unit id="properties.textAlignment.selectBoxEditor.values.left" xml:space="preserve" approved="yes">
+				<source>Left</source>
+			</trans-unit>
+			<trans-unit id="properties.textAlignment.selectBoxEditor.values.right" xml:space="preserve" approved="yes">
+				<source>Right</source>
+			</trans-unit>
+			<trans-unit id="properties.textAlignment.selectBoxEditor.values.center" xml:space="preserve" approved="yes">
+				<source>Centered</source>
+			</trans-unit>
+			<trans-unit id="properties.textAlignment.selectBoxEditor.values.justify" xml:space="preserve" approved="yes">
+				<source>Justified</source>
+			</trans-unit>
+
+			<trans-unit id="properties.textTransform" xml:space="preserve" approved="yes">
+				<source>Transform</source>
+			</trans-unit>
+			<trans-unit id="properties.textTransform.selectBoxEditor.values.default" xml:space="preserve" approved="yes">
+				<source>Default</source>
+			</trans-unit>
+			<trans-unit id="properties.textTransform.selectBoxEditor.values.lowercase" xml:space="preserve" approved="yes">
+				<source>Lowercased</source>
+			</trans-unit>
+			<trans-unit id="properties.textTransform.selectBoxEditor.values.uppercase" xml:space="preserve" approved="yes">
+				<source>Uppercased</source>
+			</trans-unit>
+			<trans-unit id="properties.textTransform.selectBoxEditor.values.capitalize" xml:space="preserve" approved="yes">
+				<source>Capitalized</source>
+			</trans-unit>
+
+			<trans-unit id="properties.textWeight" xml:space="preserve" approved="yes">
+				<source>Weight</source>
+			</trans-unit>
+			<trans-unit id="properties.textWeight.selectBoxEditor.values.default" xml:space="preserve" approved="yes">
+				<source>Default</source>
+			</trans-unit>
+			<trans-unit id="properties.textWeight.selectBoxEditor.values.bold" xml:space="preserve" approved="yes">
+				<source>Bold</source>
+			</trans-unit>
+			<trans-unit id="properties.textWeight.selectBoxEditor.values.normal" xml:space="preserve" approved="yes">
+				<source>Normal</source>
+			</trans-unit>
+
+			<trans-unit id="properties.textItalic" xml:space="preserve" approved="yes">
+				<source>Italic</source>
+			</trans-unit>
+
+			<trans-unit id="properties.textWrap" xml:space="preserve" approved="yes">
+				<source>Wrap</source>
+			</trans-unit>
+			<trans-unit id="properties.textWrap.selectBoxEditor.values.default" xml:space="preserve" approved="yes">
+				<source>Default</source>
+			</trans-unit>
+			<trans-unit id="properties.textWrap.selectBoxEditor.values.nowrap" xml:space="preserve" approved="yes">
+				<source>No wrap</source>
+			</trans-unit>
+			<trans-unit id="properties.textWrap.selectBoxEditor.values.truncate" xml:space="preserve" approved="yes">
+				<source>Truncate</source>
+			</trans-unit>
+
+			<trans-unit id="properties.textColor" xml:space="preserve" approved="yes">
+				<source>Color</source>
+			</trans-unit>
+			<trans-unit id="properties.textColor.selectBoxEditor.values.default" xml:space="preserve" approved="yes">
+				<source>Default</source>
+			</trans-unit>
+			<trans-unit id="properties.textColor.selectBoxEditor.values.primary" xml:space="preserve" approved="yes">
+				<source>Primary Color</source>
+			</trans-unit>
+			<trans-unit id="properties.textColor.selectBoxEditor.values.secondary" xml:space="preserve" approved="yes">
+				<source>Secondary Color</source>
+			</trans-unit>
+			<trans-unit id="properties.textColor.selectBoxEditor.values.success" xml:space="preserve" approved="yes">
+				<source>"Success" Color</source>
+			</trans-unit>
+			<trans-unit id="properties.textColor.selectBoxEditor.values.danger" xml:space="preserve" approved="yes">
+				<source>"Danger" Color</source>
+			</trans-unit>
+			<trans-unit id="properties.textColor.selectBoxEditor.values.warning" xml:space="preserve" approved="yes">
+				<source>"Warning" Color</source>
+			</trans-unit>
+			<trans-unit id="properties.textColor.selectBoxEditor.values.info" xml:space="preserve" approved="yes">
+				<source>"Info" Color</source>
+			</trans-unit>
+			<trans-unit id="properties.textColor.selectBoxEditor.values.white" xml:space="preserve" approved="yes">
+				<source>White</source>
+			</trans-unit>
+			<trans-unit id="properties.textColor.selectBoxEditor.values.light" xml:space="preserve" approved="yes">
+				<source>Light</source>
+			</trans-unit>
+			<trans-unit id="properties.textColor.selectBoxEditor.values.dark" xml:space="preserve" approved="yes">
+				<source>Dark</source>
+			</trans-unit>
+
+			<trans-unit id="groups.background" xml:space="preserve" approved="yes">
+				<source>Background</source>
+			</trans-unit>
+
+			<trans-unit id="properties.backgroundColor" xml:space="preserve" approved="yes">
+				<source>Color</source>
+			</trans-unit>
+			<trans-unit id="properties.backgroundColor.selectBoxEditor.values.default" xml:space="preserve" approved="yes">
+				<source>Default</source>
+			</trans-unit>
+			<trans-unit id="properties.backgroundColor.selectBoxEditor.values.primary" xml:space="preserve" approved="yes">
+				<source>Primary Color</source>
+			</trans-unit>
+			<trans-unit id="properties.backgroundColor.selectBoxEditor.values.secondary" xml:space="preserve" approved="yes">
+				<source>Secondary Color</source>
+			</trans-unit>
+			<trans-unit id="properties.backgroundColor.selectBoxEditor.values.success" xml:space="preserve" approved="yes">
+				<source>"Success" Color</source>
+			</trans-unit>
+			<trans-unit id="properties.backgroundColor.selectBoxEditor.values.danger" xml:space="preserve" approved="yes">
+				<source>"Danger" Color</source>
+			</trans-unit>
+			<trans-unit id="properties.backgroundColor.selectBoxEditor.values.warning" xml:space="preserve" approved="yes">
+				<source>"Warning" Color</source>
+			</trans-unit>
+			<trans-unit id="properties.backgroundColor.selectBoxEditor.values.info" xml:space="preserve" approved="yes">
+				<source>"Info" Color</source>
+			</trans-unit>
+			<trans-unit id="properties.backgroundColor.selectBoxEditor.values.white" xml:space="preserve" approved="yes">
+				<source>White</source>
+			</trans-unit>
+			<trans-unit id="properties.backgroundColor.selectBoxEditor.values.light" xml:space="preserve" approved="yes">
+				<source>Light</source>
+			</trans-unit>
+			<trans-unit id="properties.backgroundColor.selectBoxEditor.values.dark" xml:space="preserve" approved="yes">
+				<source>Dark</source>
+			</trans-unit>
+
+			<trans-unit id="properties.backgroundImage" xml:space="preserve" approved="yes">
+				<source>Image</source>
+			</trans-unit>
+
+			<trans-unit id="groups.float" xml:space="preserve" approved="yes">
+				<source>Float</source>
+			</trans-unit>
+
+			<trans-unit id="properties.float" xml:space="preserve" approved="yes">
+				<source>Float</source>
+			</trans-unit>
+			<trans-unit id="properties.float.selectBoxEditor.values.default" xml:space="preserve" approved="yes">
+				<source>Default</source>
+			</trans-unit>
+			<trans-unit id="properties.float.selectBoxEditor.values.left" xml:space="preserve" approved="yes">
+				<source>Float Right</source>
+			</trans-unit>
+			<trans-unit id="properties.float.selectBoxEditor.values.right" xml:space="preserve" approved="yes">
+				<source>Float Left</source>
+			</trans-unit>
+			<trans-unit id="properties.float.selectBoxEditor.values.none" xml:space="preserve" approved="yes">
+				<source>Don't Float</source>
+			</trans-unit>
+		</body>
+	</file>
+</xliff>

@@ -1,0 +1,412 @@
+'Neos.Neos:Content':
+  ui:
+    inspector:
+      groups:
+        'spacing':
+          label: 'i18n'
+          position: 'end'
+          icon: 'icon-move'
+          tab: 'settings'
+        'text':
+          label: 'i18n'
+          position: 'after spacing'
+          icon: 'icon-italic'
+          tab: 'settings'
+        'background':
+          label: 'i18n'
+          position: 'after text'
+          icon: 'icon-adjust'
+          tab: 'settings'
+        'float':
+          label: 'i18n'
+          position: 'after background'
+          icon: 'icon-indent-right'
+          tab: 'settings'
+  properties:
+    'marginTop':
+      type: 'integer'
+      defaultValue: -1
+      ui:
+        label: 'Futape.NodeTypes:Overrides.Neos_Neos_Content:properties.marginTop'
+        reloadIfChanged: true
+        inspector:
+          group: 'spacing'
+          position: 10
+          editor: 'Neos.Neos/Inspector/Editors/SelectBoxEditor'
+          editorOptions:
+            values:
+              -1:
+                label: 'Futape.NodeTypes:Overrides.Neos_Neos_Content:properties.marginTop.selectBoxEditor.values.-1'
+              0:
+                label: 'Futape.NodeTypes:Overrides.Neos_Neos_Content:properties.marginTop.selectBoxEditor.values.0'
+              1:
+                label: 'Futape.NodeTypes:Overrides.Neos_Neos_Content:properties.marginTop.selectBoxEditor.values.1'
+              2:
+                label: 'Futape.NodeTypes:Overrides.Neos_Neos_Content:properties.marginTop.selectBoxEditor.values.2'
+              3:
+                label: 'Futape.NodeTypes:Overrides.Neos_Neos_Content:properties.marginTop.selectBoxEditor.values.3'
+              4:
+                label: 'Futape.NodeTypes:Overrides.Neos_Neos_Content:properties.marginTop.selectBoxEditor.values.4'
+              5:
+                label: 'Futape.NodeTypes:Overrides.Neos_Neos_Content:properties.marginTop.selectBoxEditor.values.5'
+    'marginBottom':
+      type: 'integer'
+      defaultValue: -1
+      ui:
+        label: 'Futape.NodeTypes:Overrides.Neos_Neos_Content:properties.marginBottom'
+        reloadIfChanged: true
+        inspector:
+          group: 'spacing'
+          position: 20
+          editor: 'Neos.Neos/Inspector/Editors/SelectBoxEditor'
+          editorOptions:
+            values:
+              -1:
+                label: 'Futape.NodeTypes:Overrides.Neos_Neos_Content:properties.marginBottom.selectBoxEditor.values.-1'
+              0:
+                label: 'Futape.NodeTypes:Overrides.Neos_Neos_Content:properties.marginBottom.selectBoxEditor.values.0'
+              1:
+                label: 'Futape.NodeTypes:Overrides.Neos_Neos_Content:properties.marginBottom.selectBoxEditor.values.1'
+              2:
+                label: 'Futape.NodeTypes:Overrides.Neos_Neos_Content:properties.marginBottom.selectBoxEditor.values.2'
+              3:
+                label: 'Futape.NodeTypes:Overrides.Neos_Neos_Content:properties.marginBottom.selectBoxEditor.values.3'
+              4:
+                label: 'Futape.NodeTypes:Overrides.Neos_Neos_Content:properties.marginBottom.editorOptions.values.4'
+              5:
+                label: 'Futape.NodeTypes:Overrides.Neos_Neos_Content:properties.marginBottom.editorOptions.values.5'
+    'marginLeft':
+      type: 'integer'
+      defaultValue: -1
+      ui:
+        label: 'Futape.NodeTypes:Overrides.Neos_Neos_Content:properties.marginLeft'
+        reloadIfChanged: true
+        inspector:
+          group: 'spacing'
+          position: 30
+          editor: 'Neos.Neos/Inspector/Editors/SelectBoxEditor'
+          editorOptions:
+            values:
+              -1:
+                label: 'Futape.NodeTypes:Overrides.Neos_Neos_Content:properties.marginLeft.selectBoxEditor.values.-1'
+              0:
+                label: 'Futape.NodeTypes:Overrides.Neos_Neos_Content:properties.marginLeft.selectBoxEditor.values.0'
+              1:
+                label: 'Futape.NodeTypes:Overrides.Neos_Neos_Content:properties.marginLeft.selectBoxEditor.values.1'
+              2:
+                label: 'Futape.NodeTypes:Overrides.Neos_Neos_Content:properties.marginLeft.selectBoxEditor.values.2'
+              3:
+                label: 'Futape.NodeTypes:Overrides.Neos_Neos_Content:properties.marginLeft.selectBoxEditor.values.3'
+              4:
+                label: 'Futape.NodeTypes:Overrides.Neos_Neos_Content:properties.marginLeft.selectBoxEditor.values.4'
+              5:
+                label: 'Futape.NodeTypes:Overrides.Neos_Neos_Content:properties.marginLeft.selectBoxEditor.values.5'
+    'marginRight':
+      type: 'integer'
+      defaultValue: -1
+      ui:
+        label: 'Futape.NodeTypes:Overrides.Neos_Neos_Content:properties.marginRight'
+        reloadIfChanged: true
+        inspector:
+          group: 'spacing'
+          position: 40
+          editor: 'Neos.Neos/Inspector/Editors/SelectBoxEditor'
+          editorOptions:
+            values:
+              -1:
+                label: 'Futape.NodeTypes:Overrides.Neos_Neos_Content:properties.marginRight.selectBoxEditor.values.-1'
+              0:
+                label: 'Futape.NodeTypes:Overrides.Neos_Neos_Content:properties.marginRight.selectBoxEditor.values.0'
+              1:
+                label: 'Futape.NodeTypes:Overrides.Neos_Neos_Content:properties.marginRight.selectBoxEditor.values.1'
+              2:
+                label: 'Futape.NodeTypes:Overrides.Neos_Neos_Content:properties.marginRight.selectBoxEditor.values.2'
+              3:
+                label: 'Futape.NodeTypes:Overrides.Neos_Neos_Content:properties.marginRight.selectBoxEditor.values.3'
+              4:
+                label: 'Futape.NodeTypes:Overrides.Neos_Neos_Content:properties.marginRight.selectBoxEditor.values.4'
+              5:
+                label: 'Futape.NodeTypes:Overrides.Neos_Neos_Content:properties.marginRight.selectBoxEditor.values.5'
+    'paddingTop':
+      type: 'integer'
+      defaultValue: -1
+      ui:
+        label: 'Futape.NodeTypes:Overrides.Neos_Neos_Content:properties.paddingTop'
+        reloadIfChanged: true
+        inspector:
+          group: 'spacing'
+          position: 50
+          editor: 'Neos.Neos/Inspector/Editors/SelectBoxEditor'
+          editorOptions:
+            values:
+              -1:
+                label: 'Futape.NodeTypes:Overrides.Neos_Neos_Content:properties.paddingTop.selectBoxEditor.values.-1'
+              0:
+                label: 'Futape.NodeTypes:Overrides.Neos_Neos_Content:properties.paddingTop.selectBoxEditor.values.0'
+              1:
+                label: 'Futape.NodeTypes:Overrides.Neos_Neos_Content:properties.paddingTop.selectBoxEditor.values.1'
+              2:
+                label: 'Futape.NodeTypes:Overrides.Neos_Neos_Content:properties.paddingTop.selectBoxEditor.values.2'
+              3:
+                label: 'Futape.NodeTypes:Overrides.Neos_Neos_Content:properties.paddingTop.selectBoxEditor.values.3'
+              4:
+                label: 'Futape.NodeTypes:Overrides.Neos_Neos_Content:properties.paddingTop.selectBoxEditor.values.4'
+              5:
+                label: 'Futape.NodeTypes:Overrides.Neos_Neos_Content:properties.paddingTop.selectBoxEditor.values.5'
+    'paddingBottom':
+      type: 'integer'
+      defaultValue: -1
+      ui:
+        label: 'Futape.NodeTypes:Overrides.Neos_Neos_Content:properties.paddingBottom'
+        reloadIfChanged: true
+        inspector:
+          group: 'spacing'
+          position: 60
+          editor: 'Neos.Neos/Inspector/Editors/SelectBoxEditor'
+          editorOptions:
+            values:
+              -1:
+                label: 'Futape.NodeTypes:Overrides.Neos_Neos_Content:properties.paddingBottom.selectBoxEditor.values.-1'
+              0:
+                label: 'Futape.NodeTypes:Overrides.Neos_Neos_Content:properties.paddingBottom.selectBoxEditor.values.0'
+              1:
+                label: 'Futape.NodeTypes:Overrides.Neos_Neos_Content:properties.paddingBottom.selectBoxEditor.values.1'
+              2:
+                label: 'Futape.NodeTypes:Overrides.Neos_Neos_Content:properties.paddingBottom.selectBoxEditor.values.2'
+              3:
+                label: 'Futape.NodeTypes:Overrides.Neos_Neos_Content:properties.paddingBottom.selectBoxEditor.values.3'
+              4:
+                label: 'Futape.NodeTypes:Overrides.Neos_Neos_Content:properties.paddingBottom.selectBoxEditor.values.4'
+              5:
+                label: 'Futape.NodeTypes:Overrides.Neos_Neos_Content:properties.paddingBottom.selectBoxEditor.values.5'
+    'paddingLeft':
+      type: 'integer'
+      defaultValue: -1
+      ui:
+        label: 'Futape.NodeTypes:Overrides.Neos_Neos_Content:properties.paddingLeft'
+        reloadIfChanged: true
+        inspector:
+          group: 'spacing'
+          position: 70
+          editor: 'Neos.Neos/Inspector/Editors/SelectBoxEditor'
+          editorOptions:
+            values:
+              -1:
+                label: 'Futape.NodeTypes:Overrides.Neos_Neos_Content:properties.paddingLeft.selectBoxEditor.values.-1'
+              0:
+                label: 'Futape.NodeTypes:Overrides.Neos_Neos_Content:properties.paddingLeft.selectBoxEditor.values.0'
+              1:
+                label: 'Futape.NodeTypes:Overrides.Neos_Neos_Content:properties.paddingLeft.selectBoxEditor.values.1'
+              2:
+                label: 'Futape.NodeTypes:Overrides.Neos_Neos_Content:properties.paddingLeft.selectBoxEditor.values.2'
+              3:
+                label: 'Futape.NodeTypes:Overrides.Neos_Neos_Content:properties.paddingLeft.selectBoxEditor.values.3'
+              4:
+                label: 'Futape.NodeTypes:Overrides.Neos_Neos_Content:properties.paddingLeft.selectBoxEditor.values.4'
+              5:
+                label: 'Futape.NodeTypes:Overrides.Neos_Neos_Content:properties.paddingLeft.selectBoxEditor.values.5'
+    'paddingRight':
+      type: 'integer'
+      defaultValue: -1
+      ui:
+        label: 'Futape.NodeTypes:Overrides.Neos_Neos_Content:properties.paddingRight'
+        reloadIfChanged: true
+        inspector:
+          group: 'spacing'
+          position: 80
+          editor: 'Neos.Neos/Inspector/Editors/SelectBoxEditor'
+          editorOptions:
+            values:
+              -1:
+                label: 'Futape.NodeTypes:Overrides.Neos_Neos_Content:properties.paddingRight.selectBoxEditor.values.-1'
+              0:
+                label: 'Futape.NodeTypes:Overrides.Neos_Neos_Content:properties.paddingRight.selectBoxEditor.values.0'
+              1:
+                label: 'Futape.NodeTypes:Overrides.Neos_Neos_Content:properties.paddingRight.selectBoxEditor.values.1'
+              2:
+                label: 'Futape.NodeTypes:Overrides.Neos_Neos_Content:properties.paddingRight.selectBoxEditor.values.2'
+              3:
+                label: 'Futape.NodeTypes:Overrides.Neos_Neos_Content:properties.paddingRight.selectBoxEditor.values.3'
+              4:
+                label: 'Futape.NodeTypes:Overrides.Neos_Neos_Content:properties.paddingRight.selectBoxEditor.values.4'
+              5:
+                label: 'Futape.NodeTypes:Overrides.Neos_Neos_Content:properties.paddingRight.selectBoxEditor.values.5'
+    'textAligment':
+      type: 'string'
+      defaultValue: 'default'
+      ui:
+        label: 'Futape.NodeTypes:Overrides.Neos_Neos_Content:properties.paddingRight'
+        reloadIfChanged: true
+        inspector:
+          group: 'text'
+          position: 10
+          editor: 'Neos.Neos/Inspector/Editors/SelectBoxEditor'
+          editorOptions:
+            values:
+              default:
+                label: 'Futape.NodeTypes:Overrides.Neos_Neos_Content:properties.textAlignment.selectBoxEditor.values.default'
+              left:
+                label: 'Futape.NodeTypes:Overrides.Neos_Neos_Content:properties.textAlignment.selectBoxEditor.values.left'
+              right:
+                label: 'Futape.NodeTypes:Overrides.Neos_Neos_Content:properties.textAlignment.selectBoxEditor.values.right'
+              center:
+                label: 'Futape.NodeTypes:Overrides.Neos_Neos_Content:properties.textAlignment.selectBoxEditor.values.center'
+              justify:
+                label: 'Futape.NodeTypes:Overrides.Neos_Neos_Content:properties.textAlignment.selectBoxEditor.values.justify'
+    'textTransform':
+      type: 'string'
+      defaultValue: 'default'
+      ui:
+        label: 'Futape.NodeTypes:Overrides.Neos_Neos_Content:properties.textTransform'
+        reloadIfChanged: true
+        inspector:
+          group: 'text'
+          position: 20
+          editor: 'Neos.Neos/Inspector/Editors/SelectBoxEditor'
+          editorOptions:
+            values:
+              default:
+                label: 'Futape.NodeTypes:Overrides.Neos_Neos_Content:properties.textTransform.selectBoxEditor.values.default'
+              lowercase:
+                label: 'Futape.NodeTypes:Overrides.Neos_Neos_Content:properties.textTransform.selectBoxEditor.values.lowercase'
+              uppercase:
+                label: 'Futape.NodeTypes:Overrides.Neos_Neos_Content:properties.textTransform.selectBoxEditor.values.uppercase'
+              capitalize:
+                label: 'Futape.NodeTypes:Overrides.Neos_Neos_Content:properties.textTransform.selectBoxEditor.values.capitalize'
+    'textWeight':
+      type: 'string'
+      defaultValue: 'default'
+      ui:
+        label: 'Futape.NodeTypes:Overrides.Neos_Neos_Content:properties.textWeight'
+        reloadIfChanged: true
+        inspector:
+          group: 'text'
+          position: 30
+          editor: 'Neos.Neos/Inspector/Editors/SelectBoxEditor'
+          editorOptions:
+            values:
+              default:
+                label: 'Futape.NodeTypes:Overrides.Neos_Neos_Content:properties.textWeight.selectBoxEditor.values.default'
+              bold:
+                label: 'Futape.NodeTypes:Overrides.Neos_Neos_Content:properties.textWeight.selectBoxEditor.values.bold'
+              normal:
+                label: 'Futape.NodeTypes:Overrides.Neos_Neos_Content:properties.textWeight.selectBoxEditor.values.normal'
+    'textItalic':
+      type: 'boolean'
+      defaultValue: false
+      ui:
+        label: 'Futape.NodeTypes:Overrides.Neos_Neos_Content:properties.textItalic'
+        reloadIfChanged: true
+        inspector:
+          group: 'text'
+          position: 40
+    'textWrap':
+      type: 'string'
+      defaultValue: 'default'
+      ui:
+        label: 'Futape.NodeTypes:Overrides.Neos_Neos_Content:properties.textWrap'
+        reloadIfChanged: true
+        inspector:
+          group: 'text'
+          position: 50
+          editor: 'Neos.Neos/Inspector/Editors/SelectBoxEditor'
+          editorOptions:
+            values:
+              default:
+                label: 'Futape.NodeTypes:Overrides.Neos_Neos_Content:properties.textWrap.selectBoxEditor.values.default'
+              nowrap:
+                label: 'Futape.NodeTypes:Overrides.Neos_Neos_Content:properties.textWrap.selectBoxEditor.values.nowrap'
+              truncate:
+                label: 'Futape.NodeTypes:Overrides.Neos_Neos_Content:properties.textWrap.selectBoxEditor.values.truncate'
+    'textColor':
+      type: 'string'
+      defaultValue: 'default'
+      ui:
+        label: 'Futape.NodeTypes:Overrides.Neos_Neos_Content:properties.textColor'
+        reloadIfChanged: true
+        inspector:
+          group: 'text'
+          position: 60
+          editor: 'Neos.Neos/Inspector/Editors/SelectBoxEditor'
+          editorOptions:
+            values:
+              default:
+                label: 'Futape.NodeTypes:Overrides.Neos_Neos_Content:properties.textColor.selectBoxEditor.values.default'
+              primary:
+                label: 'Futape.NodeTypes:Overrides.Neos_Neos_Content:properties.textColor.selectBoxEditor.values.primary'
+              secondary:
+                label: 'Futape.NodeTypes:Overrides.Neos_Neos_Content:properties.textColor.selectBoxEditor.values.secondary'
+              success:
+                label: 'Futape.NodeTypes:Overrides.Neos_Neos_Content:properties.textColor.selectBoxEditor.values.success'
+              danger:
+                label: 'Futape.NodeTypes:Overrides.Neos_Neos_Content:properties.textColor.selectBoxEditor.values.danger'
+              warning:
+                label: 'Futape.NodeTypes:Overrides.Neos_Neos_Content:properties.textColor.selectBoxEditor.values.warning'
+              white:
+                label: 'Futape.NodeTypes:Overrides.Neos_Neos_Content:properties.textColor.selectBoxEditor.values.white'
+              info:
+                label: 'Futape.NodeTypes:Overrides.Neos_Neos_Content:properties.textColor.selectBoxEditor.values.info'
+              light:
+                label: 'Futape.NodeTypes:Overrides.Neos_Neos_Content:properties.textColor.selectBoxEditor.values.light'
+              dark:
+                label: 'Futape.NodeTypes:Overrides.Neos_Neos_Content:properties.textColor.selectBoxEditor.values.dark'
+    'backgroundColor':
+      type: 'string'
+      defaultValue: 'default'
+      ui:
+        label: 'Futape.NodeTypes:Overrides.Neos_Neos_Content:properties.backgroundColor'
+        reloadIfChanged: true
+        inspector:
+          group: 'background'
+          position: 10
+          editor: 'Neos.Neos/Inspector/Editors/SelectBoxEditor'
+          editorOptions:
+            values:
+              default:
+                label: 'Futape.NodeTypes:Overrides.Neos_Neos_Content:properties.backgroundColor.selectBoxEditor.values.default'
+              primary:
+                label: 'Futape.NodeTypes:Overrides.Neos_Neos_Content:properties.backgroundColor.selectBoxEditor.values.primary'
+              secondary:
+                label: 'Futape.NodeTypes:Overrides.Neos_Neos_Content:properties.backgroundColor.selectBoxEditor.values.secondary'
+              success:
+                label: 'Futape.NodeTypes:Overrides.Neos_Neos_Content:properties.backgroundColor.selectBoxEditor.values.success'
+              danger:
+                label: 'Futape.NodeTypes:Overrides.Neos_Neos_Content:properties.backgroundColor.selectBoxEditor.values.danger'
+              warning:
+                label: 'Futape.NodeTypes:Overrides.Neos_Neos_Content:properties.backgroundColor.selectBoxEditor.values.warning'
+              info:
+                label: 'Futape.NodeTypes:Overrides.Neos_Neos_Content:properties.backgroundColor.selectBoxEditor.values.info'
+              white:
+                label: 'Futape.NodeTypes:Overrides.Neos_Neos_Content:properties.backgroundColor.selectBoxEditor.values.white'
+              light:
+                label: 'Futape.NodeTypes:Overrides.Neos_Neos_Content:properties.backgroundColor.selectBoxEditor.values.light'
+              dark:
+                label: 'Futape.NodeTypes:Overrides.Neos_Neos_Content:properties.backgroundColor.selectBoxEditor.values.dark'
+    'backgroundImage':
+      type: 'Neos\Media\Domain\Model\ImageInterface'
+      ui:
+        label: 'i18n'
+        reloadIfChanged: true
+        inspector:
+          group: 'background'
+          position: 20
+    'float':
+      type: 'string'
+      defaultValue: 'default'
+      ui:
+        label: 'Futape.NodeTypes:Overrides.Neos_Neos_Content:properties.float'
+        reloadIfChanged: true
+        inspector:
+          group: 'float'
+          position: 10
+          editor: 'Neos.Neos/Inspector/Editors/SelectBoxEditor'
+          editorOptions:
+            values:
+              default:
+                label: 'Futape.NodeTypes:Overrides.Neos_Neos_Content:properties.float.selectBoxEditor.values.default'
+              left:
+                label: 'Futape.NodeTypes:Overrides.Neos_Neos_Content:properties.float.selectBoxEditor.values.left'
+              right:
+                label: 'Futape.NodeTypes:Overrides.Neos_Neos_Content:properties.float.selectBoxEditor.values.right'
+              none:
+                label: 'Futape.NodeTypes:Overrides.Neos_Neos_Content:properties.float.selectBoxEditor.values.none'

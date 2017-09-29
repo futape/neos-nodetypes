@@ -1,0 +1,106 @@
+prototype(Neos.Neos:Content) {
+	attributes {
+		class {
+			# Spacing
+			@process.addMarginTop {
+				expression = ${Array.concat(Type.isArray(value) ? value : [value], ['mt-' + q(node).property('marginTop')])}
+
+				@if.notDefault = ${q(node).property('marginTop') != -1}
+			}
+			@process.addMarginBottom {
+				expression = ${Array.concat(Type.isArray(value) ? value : [value], ['mb-' + q(node).property('marginBottom')])}
+
+				@if.notDefault = ${q(node).property('marginBottom') != -1}
+			}
+			@process.addMarginLeft {
+				expression = ${Array.concat(Type.isArray(value) ? value : [value], ['ml-' + q(node).property('marginLeft')])}
+
+				@if.notDefault = ${q(node).property('marginLeft') != -1}
+			}
+			@process.addMarginRight {
+				expression = ${Array.concat(Type.isArray(value) ? value : [value], ['mr-' + q(node).property('marginRight')])}
+
+				@if.notDefault = ${q(node).property('marginRight') != -1}
+			}
+
+			@process.addPaddingTop {
+				expression = ${Array.concat(Type.isArray(value) ? value : [value], ['pt-' + q(node).property('paddingTop')])}
+
+				@if.notDefault = ${q(node).property('paddingTop') != -1}
+			}
+			@process.addPaddingBottom {
+				expression = ${Array.concat(Type.isArray(value) ? value : [value], ['pb-' + q(node).property('paddingBottom')])}
+
+				@if.notDefault = ${q(node).property('paddingBottom') != -1}
+			}
+			@process.addPaddingLeft {
+				expression = ${Array.concat(Type.isArray(value) ? value : [value], ['pl-' + q(node).property('paddingLeft')])}
+
+				@if.notDefault = ${q(node).property('paddingLeft') != -1}
+			}
+			@process.addPaddingRight {
+				expression = ${Array.concat(Type.isArray(value) ? value : [value], ['pr-' + q(node).property('paddingRight')])}
+
+				@if.notDefault = ${q(node).property('paddingRight') != -1}
+			}
+
+			# Text
+			@process.addTextAlignment {
+				expression = ${Array.concat(Type.isArray(value) ? value : [value], ['text-' + q(node).property('textAlignment')])}
+
+				@if.notDefault = ${q(node).property('textAlignment') != 'default'}
+			}
+			@process.addTextTransform {
+				expression = ${Array.concat(Type.isArray(value) ? value : [value], ['text-' + q(node).property('textTransform')])}
+
+				@if.notDefault = ${q(node).property('textTransform') != 'default'}
+			}
+			@process.addTextWeight {
+				expression = ${Array.concat(Type.isArray(value) ? value : [value], ['font-' + q(node).property('textWeight')])}
+
+				@if.notDefault = ${q(node).property('textWeight') != 'default'}
+			}
+			@process.addTextItalic {
+				expression = ${Array.concat(Type.isArray(value) ? value : [value], ['font-italic'])}
+
+				@if.active = ${q(node).property('textItalic') == true}
+			}
+			@process.addTextWrap {
+				expression = ${Array.concat(Type.isArray(value) ? value : [value], ['text-' + q(node).property('textWrap')])}
+
+				@if.notDefault = ${q(node).property('textWrap') != 'default'}
+			}
+			@process.addTextColor {
+				expression = ${Array.concat(Type.isArray(value) ? value : [value], ['text-' + q(node).property('textColor')])}
+
+				@if.notDefault = ${q(node).property('textColor') != 'default'}
+			}
+
+			# Background
+			@process.addBackgroundColor {
+				expression = ${Array.concat(Type.isArray(value) ? value : [value], ['bg-' + q(node).property('backgroundColor')])}
+
+				@if.notDefault = ${q(node).property('backgroundColor') != 'default'}
+			}
+
+			# Float
+			@process.addFloat {
+				expression = ${Array.concat(Type.isArray(value) ? value : [value], ['float-' + q(node).property('float')])}
+
+				@if.notDefault = ${q(node).property('float') != 'default'}
+			}
+		}
+
+		style {
+			# Background
+			@process.addBackgroundImage {
+				uri = Neos.Neos:ImageUri {
+					asset = ${q(node).property('backgroundImage')}
+				}
+				expression = ${Array.concat(Type.isArray(value) ? value : [value], ['; background-image: url("' + this.uri + '");'])}
+
+				@if.isset = ${q(node).property('backgroundImage') != null}
+			}
+		}
+	}
+}

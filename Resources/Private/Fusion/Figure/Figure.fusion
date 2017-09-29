@@ -1,0 +1,19 @@
+prototype(Futape.NodeTypes:Figure) < prototype(Neos.Fusion:Value) {
+	value = Futape.Bootstrap:Figure {
+		caption {
+			content = Neos.Fusion:Tag {
+				tagName = 'div'
+				content = ${q(node).property('caption')}
+
+				@process.editable = Neos.Neos:ContentElementEditable {
+					property = 'caption'
+				}
+			}
+		}
+
+		content = Neos.Neos:ContentCollection {
+			nodePath = 'main'
+			tagName = 'div'
+		}
+	}
+}

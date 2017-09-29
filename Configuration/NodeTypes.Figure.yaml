@@ -1,0 +1,28 @@
+'Futape.NodeTypes:Figure':
+  superTypes:
+    'Neos.Neos:Content': true
+  ui:
+    group: 'general'
+    position: 5020
+    icon: 'icon-picture'
+    label: 'i18n'
+  childNodes:
+    main:
+      type: 'Neos.Neos:ContentCollection'
+  properties:
+    'caption':
+      type: 'string'
+      defaultValue: ''
+      ui:
+        inlineEditable: true
+        aloha:
+          placeholder: 'i18n'
+          format: {}
+          table: {}
+          link: {}
+          list: {}
+          alignment: {}
+          formatlesspaste:
+            button: false
+            formatlessPasteOption: true
+          autoparagraph: false

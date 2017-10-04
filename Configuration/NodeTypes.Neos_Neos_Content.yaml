@@ -25,12 +25,12 @@
         'border':
           label: 'Futape.NodeTypes:Overrides.Neos_Neos_Content:groups.border'
           position: 'after float'
-          icon: 'icon-indent-right'
+          icon: 'icon-check-empty'
           tab: 'settings'
         'shape':
           label: 'Futape.NodeTypes:Overrides.Neos_Neos_Content:groups.shape'
           position: 'after border'
-          icon: 'icon-indent-right'
+          icon: 'icon-star'
           tab: 'settings'
   properties:
     'marginTop':

@@ -3,32 +3,32 @@
     inspector:
       groups:
         'spacing':
-          label: 'i18n'
+          label: 'Futape.NodeTypes:Overrides.Neos_Neos_Content:groups.spacing'
           position: 'end'
           icon: 'icon-move'
           tab: 'settings'
         'text':
-          label: 'i18n'
+          label: 'Futape.NodeTypes:Overrides.Neos_Neos_Content:groups.text'
           position: 'after spacing'
           icon: 'icon-italic'
           tab: 'settings'
         'background':
-          label: 'i18n'
+          label: 'Futape.NodeTypes:Overrides.Neos_Neos_Content:groups.background'
           position: 'after text'
           icon: 'icon-adjust'
           tab: 'settings'
         'float':
-          label: 'i18n'
+          label: 'Futape.NodeTypes:Overrides.Neos_Neos_Content:groups.float'
           position: 'after background'
           icon: 'icon-indent-right'
           tab: 'settings'
         'border':
-          label: 'i18n'
+          label: 'Futape.NodeTypes:Overrides.Neos_Neos_Content:groups.border'
           position: 'after float'
           icon: 'icon-indent-right'
           tab: 'settings'
         'shape':
-          label: 'i18n'
+          label: 'Futape.NodeTypes:Overrides.Neos_Neos_Content:groups.shape'
           position: 'after border'
           icon: 'icon-indent-right'
           tab: 'settings'
@@ -245,7 +245,7 @@
       type: 'string'
       defaultValue: 'default'
       ui:
-        label: 'Futape.NodeTypes:Overrides.Neos_Neos_Content:properties.paddingRight'
+        label: 'Futape.NodeTypes:Overrides.Neos_Neos_Content:properties.textAlignment'
         reloadIfChanged: true
         inspector:
           group: 'text'
@@ -395,7 +395,7 @@
     'backgroundImage':
       type: 'Neos\Media\Domain\Model\ImageInterface'
       ui:
-        label: 'i18n'
+        label: 'Futape.NodeTypes:Overrides.Neos_Neos_Content:properties.backgroundImage'
         reloadIfChanged: true
         inspector:
           group: 'background'

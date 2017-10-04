@@ -241,7 +241,7 @@
                 label: 'Futape.NodeTypes:Overrides.Neos_Neos_Content:properties.paddingRight.selectBoxEditor.values.4'
               5:
                 label: 'Futape.NodeTypes:Overrides.Neos_Neos_Content:properties.paddingRight.selectBoxEditor.values.5'
-    'textAligment':
+    'textAlignment':
       type: 'string'
       defaultValue: 'default'
       ui:

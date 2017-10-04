@@ -492,6 +492,10 @@
 				<target xml:lang="de">Umrandung</target>
 			</trans-unit>
 
+			<trans-unit id="properties.border" xml:space="preserve" approved="yes">
+				<source>Border</source>
+				<target xml:lang="de">Umrandung</target>
+			</trans-unit>
 			<trans-unit id="properties.border.selectBoxEditor.values.default" xml:space="preserve" approved="yes">
 				<source>Default</source>
 				<target xml:lang="de">Standard</target>
@@ -546,6 +550,10 @@
 				<target xml:lang="de">Form</target>
 			</trans-unit>
 
+			<trans-unit id="properties.shape" xml:space="preserve" approved="yes">
+				<source>Shape</source>
+				<target xml:lang="de">Form</target>
+			</trans-unit>
 			<trans-unit id="properties.shape.selectBoxEditor.values.default" xml:space="preserve" approved="yes">
 				<source>Default</source>
 				<target xml:lang="de">Standard</target>

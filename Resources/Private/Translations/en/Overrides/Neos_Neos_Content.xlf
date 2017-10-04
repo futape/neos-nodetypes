@@ -375,6 +375,9 @@
 				<source>Border</source>
 			</trans-unit>
 
+			<trans-unit id="properties.border" xml:space="preserve" approved="yes">
+				<source>Border</source>
+			</trans-unit>
 			<trans-unit id="properties.border.selectBoxEditor.values.default" xml:space="preserve" approved="yes">
 				<source>Default</source>
 			</trans-unit>
@@ -416,6 +419,9 @@
 				<source>Shape</source>
 			</trans-unit>
 
+			<trans-unit id="properties.shape" xml:space="preserve" approved="yes">
+				<source>Shape</source>
+			</trans-unit>
 			<trans-unit id="properties.shape.selectBoxEditor.values.default" xml:space="preserve" approved="yes">
 				<source>Default</source>
 			</trans-unit>

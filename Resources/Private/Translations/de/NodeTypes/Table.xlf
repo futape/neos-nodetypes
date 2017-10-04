@@ -45,6 +45,10 @@
 				<source>Highlight on hovering</source>
 				<target xml:lang="de">Beim Überfahren hervorheben</target>
 			</trans-unit>
+			<trans-unit id="properties.responsive" xml:space="preserve" approved="yes">
+				<source>Scroll Overflowing Content</source>
+				<target xml:lang="de">Überschüssigen Inhalt scrollbar machen</target>
+			</trans-unit>
 
 			<trans-unit id="properties.headColor" xml:space="preserve" approved="yes">
 				<source>Table Head Color</source>

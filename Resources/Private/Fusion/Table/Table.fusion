@@ -4,6 +4,7 @@ prototype(Futape.NodeTypes:Table) < prototype(Neos.Fusion:Value) {
 		size = ${q(node).property('size')}
 		bordered = ${q(node).property('bordered')}
 		hoverable = ${q(node).property('hoverable')}
+		responsive = ${q(node).property('responsive')}
 
 		head {
 			color = ${q(node).property('headColor')}

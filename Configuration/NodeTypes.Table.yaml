@@ -78,6 +78,15 @@
         inspector:
           group: 'table'
           position: 40
+    'responsive':
+      type: 'boolean'
+      defaultValue: false
+      ui:
+        label: 'i18n'
+        reloadIfChanged: true
+        inspector:
+          group: 'table'
+          position: 50
     'headColor':
       type: 'string'
       defaultValue: 'normal'
@@ -86,7 +95,7 @@
         reloadIfChanged: true
         inspector:
           group: 'table'
-          position: 50
+          position: 60
           editor: 'Neos.Neos/Inspector/Editors/SelectBoxEditor'
           editorOptions:
             values:

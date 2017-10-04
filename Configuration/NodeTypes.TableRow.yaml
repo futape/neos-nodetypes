@@ -1,0 +1,55 @@
+'Futape.NodeTypes:TableRow':
+  superTypes:
+    'Neos.Neos:Content': true
+  ui:
+    group: 'general'
+    position: 5051
+    icon: 'icon-reorder'
+    label: 'i18n'
+    inspector:
+      groups:
+        'table':
+          label: 'i18n'
+          position: 'start'
+          icon: 'icon-table'
+          tab: 'settings'
+  childNodes:
+    columns:
+      type: 'Neos.Neos:ContentCollection'
+      constraints:
+        nodeTypes:
+          '*': false
+          'Futape.NodeTypes:TableCell': true
+  properties:
+    'color':
+      type: 'string'
+      defaultValue: 'normal'
+      ui:
+        label: 'i18n'
+        reloadIfChanged: true
+        inspector:
+          group: 'table'
+          position: 10
+          editor: 'Neos.Neos/Inspector/Editors/SelectBoxEditor'
+          editorOptions:
+            values:
+              normal:
+                label: 'i18n'
+              active:
+                label: 'i18n'
+              primary:
+                label: 'i18n'
+              secondary:
+                label: 'i18n'
+              success:
+                label: 'i18n'
+              danger:
+                label: 'i18n'
+              warning:
+                label: 'i18n'
+              info:
+                label: 'i18n'
+              light:
+                label: 'i18n'
+              dark:
+                label: 'i18n'

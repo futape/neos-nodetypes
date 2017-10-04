@@ -19,3 +19,5 @@
       'Neos.NodeTypes:Image': false
       'Neos.NodeTypes:TextWithImage': false
       'Futape.NodeTypes:PageRoot': false
+      'Futape.NodeTypes:TableRow': false
+      'Futape.NodeTypes:TableCell': false

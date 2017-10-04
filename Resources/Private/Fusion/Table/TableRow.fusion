@@ -1,0 +1,10 @@
+prototype(Futape.NodeTypes:TableRow) < prototype(Neos.Fusion:Value) {
+	value = Futape.Bootstrap:TableRow {
+		color = ${q(node).property('color')}
+
+		columns = Neos.Fusion:Value {
+			@context.node = ${Neos.Node.nearestContentCollection(node, 'columns')}
+			value = Neos.Neos:ContentCollectionRenderer
+		}
+	}
+}

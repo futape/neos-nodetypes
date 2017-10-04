@@ -1,0 +1,24 @@
+prototype(Futape.NodeTypes:Table) < prototype(Neos.Fusion:Value) {
+	value = Futape.Bootstrap:Table {
+		color = ${q(node).property('color')}
+		size = ${q(node).property('size')}
+		bordered = ${q(node).property('bordered')}
+		hoverable = ${q(node).property('hoverable')}
+
+		head {
+			color = ${q(node).property('headColor')}
+
+			content = Neos.Fusion:Value {
+				@context.node = ${Neos.Node.nearestContentCollection(node, 'head')}
+				value = Neos.Neos:ContentCollectionRenderer
+			}
+		}
+
+		body {
+			content = Neos.Fusion:Value {
+				@context.node = ${Neos.Node.nearestContentCollection(node, 'body')}
+				value = Neos.Neos:ContentCollectionRenderer
+			}
+		}
+	}
+}

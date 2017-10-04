@@ -2,11 +2,11 @@ prototype(Futape.NodeTypes:Text) {
 	templatePath = 'resource://Futape.NodeTypes/Private/Fusion/Text/Text.html'
 
 	attributes {
-		class = Neos.Fusion:Value {
-			classes = Neos.Fusion:RawArray {
-				lead = 'lead'
+		class = Neos.Fusion:Case {
+			lead {
+				condition = ${q(node).property('style') == 'lead'}
+				renderer = 'lead'
 			}
-			value = ${this.classes[q(node).property('style')]}
 		}
 	}
 

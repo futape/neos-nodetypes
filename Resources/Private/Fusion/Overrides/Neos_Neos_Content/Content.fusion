@@ -91,7 +91,7 @@ prototype(Neos.Neos:Content) {
 			}
 
 			# Border
-			@process.addBorder {
+			@process.addBorder = Neos.Fusion:Value {
 				classes = Neos.Fusion:Case {
 					none {
 						condition = ${q(node).property('border') == 'none'}
@@ -112,19 +112,32 @@ prototype(Neos.Neos:Content) {
 						@position = 'end'
 					}
 				}
-				expression = ${Array.concat(Type.isArray(value) ? value : [value], this.classes)}
+
+				value = ${Array.concat(Type.isArray(value) ? value : [value], this.classes)}
 
 				@if.notDefault = ${q(node).property('border') != 'default'}
 			}
 
 			# Shape
-			@process.addShape {
-				classes = Neos.Fusion:RawArray {
-					rounded = ['rounded']
-					circle = ['rounded-circle']
-					rectangular = ['rounded-0']
+			@process.addShape = Neos.Fusion:Value {
+				classes = Neos.Fusion:Case {
+					rounded {
+						condition = ${q(node).property('shape') == 'rounded'}
+						renderer = ${['rounded']}
+					}
+
+					circle {
+						condition = ${q(node).property('shape') == 'circle'}
+						renderer = ${['rounded-circle']}
+					}
+
+					rectangular {
+						condition = ${q(node).property('shape') == 'rectangular'}
+						renderer = ${['rounded-0']}
+					}
 				}
-				expression = ${Array.concat(Type.isArray(value) ? value : [value], this.classes[q(node).property('shape')])}
+
+				value = ${Array.concat(Type.isArray(value) ? value : [value], this.classes)}
 
 				@if.notDefault = ${q(node).property('shape') != 'default'}
 			}
@@ -132,11 +145,12 @@ prototype(Neos.Neos:Content) {
 
 		style {
 			# Background
-			@process.addBackgroundImage {
+			@process.addBackgroundImage = Neos.Fusion:Value {
 				uri = Neos.Neos:ImageUri {
 					asset = ${q(node).property('backgroundImage')}
 				}
-				expression = ${Array.concat(Type.isArray(value) ? value : [value], ['; background-image: url("' + this.uri + '");'])}
+
+				value = ${Array.concat(Type.isArray(value) ? value : [value], ['; background-image: url("' + this.uri + '");'])}
 
 				@if.isset = ${q(node).property('backgroundImage') != null}
 			}

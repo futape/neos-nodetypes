@@ -1,0 +1,5 @@
+'Futape.NodeTypes:StandalonePrototype':
+  abstract: true
+  options:
+    fusion:
+      prototypeGenerator: 'Futape\NodeTypes\Generators\StandalonePrototypeGenerator'

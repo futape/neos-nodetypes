@@ -1,6 +1,7 @@
 'Futape.NodeTypes:Image':
   superTypes:
     'Neos.Neos:Content': true
+    'Futape.Bootstrap:BootstrapContentPrototype': true
   ui:
     group: 'general'
     position: 5030

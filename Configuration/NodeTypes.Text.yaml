@@ -39,7 +39,7 @@
             'code': true
             'removeFormat': true
           table:
-            'table': true
+            'table': false
           link:
             'a': true
           list:

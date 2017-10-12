@@ -12,6 +12,8 @@ prototype(Futape.NodeTypes:Heading) < prototype(Neos.Fusion:Value) {
                     property = 'title'
                 }
             }
+
+            value = Neos.Neos:Content
         }
     }
 }

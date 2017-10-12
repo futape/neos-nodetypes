@@ -1,12 +1,9 @@
-prototype(Futape.NodeTypes:Image) < prototype(Neos.Fusion:Value) {
-	value = Futape.Bootstrap:Image {
-		style = ${q(node).property('style')}
+prototype(Futape.NodeTypes:Image) < prototype(Futape.Bootstrap:Image) {
+	style = ${q(node).property('style')}
 
-		attributes {
-			src = Neos.Neos:ImageUri {
-				asset = ${q(node).property('image')}
-			}
-			alt = ${q(node).property('alt')}
-		}
+	src = Neos.Neos:ImageUri {
+		asset = ${q(node).property('image')}
 	}
+
+	alt = ${q(node).property('alt')}
 }

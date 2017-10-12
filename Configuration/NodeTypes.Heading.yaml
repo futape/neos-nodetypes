@@ -1,6 +1,7 @@
 'Futape.NodeTypes:Heading':
   superTypes:
     'Neos.Neos:Content': true
+    'Futape.NodeTypes:StandalonePrototype': true
   ui:
     group: 'general'
     position: 5000

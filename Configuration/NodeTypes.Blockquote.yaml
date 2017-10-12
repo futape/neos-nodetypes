@@ -1,6 +1,7 @@
 'Futape.NodeTypes:Blockquote':
   superTypes:
     'Neos.Neos:Content': true
+    'Futape.Bootstrap:BootstrapContentPrototype': true
   ui:
     label: 'i18n'
     group: 'general'

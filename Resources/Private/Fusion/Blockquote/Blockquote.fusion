@@ -1,16 +1,16 @@
-prototype(Futape.NodeTypes:Blockquote) < prototype(Neos.Fusion:Value) {
-	value = Futape.Bootstrap:Blockquote {
-		footer {
-			content = ${q(node).property('footer')}
+prototype(Futape.NodeTypes:Blockquote) < prototype(Futape.Bootstrap:Blockquote) {
+	footer = ${q(node).property('footer')}
 
+	content = Neos.Neos:ContentCollection {
+		nodePath = 'main'
+		tagName = 'div'
+	}
+
+	value {
+		footer {
 			@process.editable = Neos.Neos:ContentElementEditable {
 				property = 'footer'
 			}
-		}
-
-		content = Neos.Neos:ContentCollection {
-			nodePath = 'main'
-			tagName = 'div'
 		}
 	}
 }

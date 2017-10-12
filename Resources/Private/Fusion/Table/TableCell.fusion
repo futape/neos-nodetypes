@@ -1,17 +1,16 @@
-prototype(Futape.NodeTypes:TableCell) < prototype(Neos.Fusion:Value) {
-	value = Futape.Bootstrap:TableCell {
-		color = ${q(node).property('color')}
+prototype(Futape.NodeTypes:TableCell) < prototype(Futape.Bootstrap:TableCell) {
+	color = ${q(node).property('color')}
+	tagName = ${q(node).property('header') == true ? 'th' : 'td'}
 
-		tagName = ${q(node).property('header') == true ? 'th' : 'td'}
+	content = Neos.Neos:ContentCollection {
+		nodePath = 'main'
+		tagName = 'div'
+	}
 
+	value {
 		attributes {
 			colspan = ${q(node).property('colspan') != 1 ? q(node).property('colspan') : null}
 			scope = ${q(node).property('header') == true ? 'row' : null}
-		}
-
-		content = Neos.Neos:ContentCollection {
-			nodePath = 'main'
-			tagName = 'div'
 		}
 	}
 }

@@ -1,0 +1,18 @@
+prototype(Futape.NodeTypes:Button) < prototype(Futape.Bootstrap:Button) {
+	color = ${q(node).property('color')}
+	outline = ${q(node).property('outline')}
+	size = ${q(node).property('size')}
+	block = ${q(node).property('block')}
+	tagName.@process.spanIfInBackend = ${node.context.inBackend == true ? 'span' : value}
+	href.@process.disableIfInBackend = ${node.context.inBackend == true ? null : value}
+	toggleable.@process.disableIfInBackend = ${node.context.inBackend == true ? false : value}
+
+	content = Neos.Fusion:Tag {
+		tagName = 'span'
+		content = ${q(node).property('text')}
+
+		@process.editable = Neos.Neos:ContentElementEditable {
+			property = 'text'
+		}
+	}
+}

@@ -1,0 +1,9 @@
+prototype(Futape.NodeTypes:Link) < prototype(Futape.NodeTypes:Button) {
+	href = ${q(node).property('href')}
+
+	value {
+		attributes {
+			target = ${(q(node).property('target') != 'self' && node.context.inBackend == false) ? '_' + q(node).property('target') : null}
+		}
+	}
+}

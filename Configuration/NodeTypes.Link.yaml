@@ -1,0 +1,46 @@
+'Futape.NodeTypes:Link':
+  superTypes:
+    'Futape.NodeTypes:Button': true
+  ui:
+    label: 'i18n'
+    group: 'general'
+    position: 5060
+    icon: 'icon-link'
+    inspector:
+      groups:
+        'link':
+          label: 'i18n'
+          position: 'start'
+          icon: 'icon-link'
+          tab: 'settings'
+  properties:
+    'href':
+      type: 'string'
+      defaultValue: ''
+      ui:
+        label: 'i18n'
+        reloadIfChanged: true
+        inspector:
+          group: 'link'
+          position: 10
+          editor: 'Neos.Neos/Inspector/Editors/LinkEditor'
+    'target':
+      type: 'string'
+      defaultValue: 'self'
+      ui:
+        label: 'i18n'
+        reloadIfChanged: true
+        inspector:
+          group: 'link'
+          position: 20
+          editor: 'Neos.Neos/Inspector/Editors/SelectBoxEditor'
+          editorOptions:
+            values:
+              self:
+                label: 'i18n'
+              blank:
+                label: 'i18n'
+              parent:
+                label: 'i18n'
+              top:
+                label: 'i18n'

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
+	<file original="" product-name="Futape.NodeTypes" source-language="en" datatype="plaintext" target-language="de">
+		<body>
+			<trans-unit id="ui.label" xml:space="preserve" approved="yes">
+				<source>Link</source>
+				<target xml:lang="de">Link</target>
+			</trans-unit>
+			<trans-unit id="groups.link" xml:space="preserve" approved="yes">
+				<source>Link</source>
+				<target xml:lang="de">Link</target>
+			</trans-unit>
+
+			<trans-unit id="properties.href" xml:space="preserve" approved="yes">
+				<source>Link</source>
+				<target xml:lang="de">Link</target>
+			</trans-unit>
+
+			<trans-unit id="properties.target" xml:space="preserve" approved="yes">
+				<source>Open Link in…</source>
+				<target xml:lang="de">Link öffnen in…</target>
+			</trans-unit>
+			<trans-unit id="properties.target.selectBoxEditor.values.self" xml:space="preserve" approved="yes">
+				<source>Same Window</source>
+				<target xml:lang="de">Selbes Fenster</target>
+			</trans-unit>
+			<trans-unit id="properties.target.selectBoxEditor.values.blank" xml:space="preserve" approved="yes">
+				<source>New Window</source>
+				<target xml:lang="de">Neues Fenster</target>
+			</trans-unit>
+			<trans-unit id="properties.target.selectBoxEditor.values.parent" xml:space="preserve" approved="yes">
+				<source>Parent Frame</source>
+				<target xml:lang="de">Übergeordnetes Frame</target>
+			</trans-unit>
+			<trans-unit id="properties.target.selectBoxEditor.values.top" xml:space="preserve" approved="yes">
+				<source>Top Frame</source>
+				<target xml:lang="de">Oberstes Frame</target>
+			</trans-unit>
+		</body>
+	</file>
+</xliff>

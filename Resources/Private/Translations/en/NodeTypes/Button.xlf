@@ -9,9 +9,6 @@
 			<trans-unit id="properties.color" xml:space="preserve" approved="yes">
 				<source>Color</source>
 			</trans-unit>
-			<trans-unit id="properties.color.selectBoxEditor.values.active" xml:space="preserve" approved="yes">
-				<source>"Active" Color</source>
-			</trans-unit>
 			<trans-unit id="properties.color.selectBoxEditor.values.primary" xml:space="preserve" approved="yes">
 				<source>Primary Color</source>
 			</trans-unit>

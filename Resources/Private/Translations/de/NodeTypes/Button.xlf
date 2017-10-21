@@ -11,10 +11,6 @@
 				<source>Color</source>
 				<target xml:lang="de">Farbe</target>
 			</trans-unit>
-			<trans-unit id="properties.color.selectBoxEditor.values.active" xml:space="preserve" approved="yes">
-				<source>"Active" Color</source>
-				<target xml:lang="de">"Aktiv" Farbe</target>
-			</trans-unit>
 			<trans-unit id="properties.color.selectBoxEditor.values.primary" xml:space="preserve" approved="yes">
 				<source>Primary Color</source>
 				<target xml:lang="de">Primärfarbe</target>

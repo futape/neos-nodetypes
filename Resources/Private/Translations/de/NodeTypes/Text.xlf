@@ -6,10 +6,6 @@
 				<source>Text</source>
 				<target xml:lang="de">Text</target>
 			</trans-unit>
-			<trans-unit id="groups.text" xml:space="preserve" approved="yes">
-				<source>Text</source>
-				<target xml:lang="de">Text</target>
-			</trans-unit>
 
 			<trans-unit id="properties.text.aloha.placeholder" xml:space="preserve" approved="yes">
 				<source>Text</source>

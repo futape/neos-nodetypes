@@ -1,6 +1,7 @@
 'Futape.NodeTypes:Text':
   superTypes:
     'Neos.Neos:Content': true
+    'Futape.Bootstrap:BootstrapContentPrototype': true
   ui:
     label: 'i18n'
     group: 'general'
@@ -9,10 +10,7 @@
     inspector:
       groups:
         'text':
-          label: 'i18n'
           position: 'start'
-          icon: 'icon-align-left'
-          tab: 'settings'
   properties:
     'text':
       type: 'string'

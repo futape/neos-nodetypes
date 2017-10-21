@@ -1,16 +1,7 @@
-prototype(Futape.NodeTypes:Text) {
-	templatePath = 'resource://Futape.NodeTypes/Private/Fusion/Text/Text.html'
+prototype(Futape.NodeTypes:Text) < prototype(Futape.Bootstrap:Text) {
+	style = ${q(node).property('style')}
 
-	attributes {
-		class = Neos.Fusion:Case {
-			lead {
-				condition = ${q(node).property('style') == 'lead'}
-				renderer = 'lead'
-			}
-		}
-	}
-
-    text = Neos.Fusion:Tag {
+	content = Neos.Fusion:Tag {
     	tagName = 'div'
     	content = ${q(node).property('text')}
 

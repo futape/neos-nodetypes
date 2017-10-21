@@ -1,0 +1,9 @@
+prototype(Futape.NodeTypes:Jumbotron) < prototype(Futape.Bootstrap:Jumbotron) {
+	fullWidth = ${q(node).property('fullWidth')}
+	fluid = ${q(node).property('fluid')}
+
+	content = Neos.Neos:ContentCollection {
+		nodePath = 'main'
+		tagName = 'div'
+	}
+}

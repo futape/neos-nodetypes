@@ -1,0 +1,41 @@
+'Futape.NodeTypes:Jumbotron':
+  superTypes:
+    'Neos.Neos:Content': true
+    'Futape.Bootstrap:BootstrapContentPrototype': true
+  ui:
+    group: 'general'
+    position: 5090
+    icon: 'icon-folder-open-alt'
+    label: 'i18n'
+    inlineEditable: true
+    inspector:
+      groups:
+        'jumbotron':
+          label: 'i18n'
+          position: 'start'
+          icon: 'icon-folder-open-alt'
+          tab: 'settings'
+  childNodes:
+    main:
+      type: 'Neos.Neos:ContentCollection'
+  properties:
+    'fullWidth':
+      type: 'boolean'
+      defaultValue: false
+      ui:
+        label: 'i18n'
+        reloadIfChanged: true
+        inspector:
+          group: 'jumbotron'
+          position: 10
+    'fluid':
+      type: 'boolean'
+      defaultValue: false
+      ui:
+        label: 'i18n'
+        help:
+          message: 'i18n'
+        reloadIfChanged: true
+        inspector:
+          group: 'jumbotron'
+          position: 20

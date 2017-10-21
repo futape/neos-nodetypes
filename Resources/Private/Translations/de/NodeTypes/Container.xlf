@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
+	<file original="" product-name="Futape.NodeTypes" source-language="en" datatype="plaintext" target-language="de">
+		<body>
+			<trans-unit id="ui.label" xml:space="preserve" approved="yes">
+				<source>Container</source>
+				<target xml:lang="de">Behälter</target>
+			</trans-unit>
+			<trans-unit id="groups.link" xml:space="preserve" approved="yes">
+				<source>Container</source>
+				<target xml:lang="de">Behälter</target>
+			</trans-unit>
+
+			<trans-unit id="properties.fluid" xml:space="preserve" approved="yes">
+				<source>Fluid</source>
+				<target xml:lang="de">Flexibel</target>
+			</trans-unit>
+		</body>
+	</file>
+</xliff>

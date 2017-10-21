@@ -1,0 +1,8 @@
+prototype(Futape.NodeTypes:Container) < prototype(Futape.Bootstrap:Container) {
+	fluid = ${q(node).property('fluid')}
+
+	content = Neos.Neos:ContentCollection {
+		nodePath = 'main'
+		tagName = 'div'
+	}
+}

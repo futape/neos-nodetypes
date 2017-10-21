@@ -1,0 +1,10 @@
+'Futape.NodeTypes:TableBody':
+  superTypes:
+    'Neos.Neos:ContentCollection': true
+    'Futape.NodeTypes:StandalonePrototype': true
+  constraints:
+    nodeTypes:
+      '*': false
+      'Futape.NodeTypes:TableRow': true
+  ui:
+   label: 'i18n'

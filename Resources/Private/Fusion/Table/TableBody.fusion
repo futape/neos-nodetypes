@@ -1,0 +1,7 @@
+prototype(Futape.NodeTypes:TableBody) < prototype(Futape.Bootstrap:TableBody) {
+	value = Neos.Neos:ContentCollection {
+		@context.node = ${node}
+
+		content = Neos.Neos:ContentCollectionRenderer
+	}
+}

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
+	<file original="" product-name="Futape.NodeTypes" source-language="en" datatype="plaintext" target-language="de">
+		<body>
+			<trans-unit id="ui.label" xml:space="preserve" approved="yes">
+				<source>Table Head</source>
+				<target xml:lang="de">Tabellenkopf</target>
+			</trans-unit>
+			<trans-unit id="groups.table" xml:space="preserve" approved="yes">
+				<source>Table</source>
+				<target xml:lang="de">Tabelle</target>
+			</trans-unit>
+
+			<trans-unit id="properties.color" xml:space="preserve" approved="yes">
+				<source>Color</source>
+				<target xml:lang="de">Farbe</target>
+			</trans-unit>
+			<trans-unit id="properties.color.selectBoxEditor.values.normal" xml:space="preserve" approved="yes">
+				<source>Normal</source>
+				<target xml:lang="de">Normal</target>
+			</trans-unit>
+			<trans-unit id="properties.color.selectBoxEditor.values.default" xml:space="preserve" approved="yes">
+				<source>Default</source>
+				<target xml:lang="de">Standard</target>
+			</trans-unit>
+			<trans-unit id="properties.color.selectBoxEditor.values.inverse" xml:space="preserve" approved="yes">
+				<source>Inverse</source>
+				<target xml:lang="de">Invertiert</target>
+			</trans-unit>
+		</body>
+	</file>
+</xliff>

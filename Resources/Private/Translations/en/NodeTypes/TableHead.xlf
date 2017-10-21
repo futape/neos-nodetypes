@@ -3,7 +3,7 @@
 	<file original="" product-name="Futape.NodeTypes" source-language="en" datatype="plaintext">
 		<body>
 			<trans-unit id="ui.label" xml:space="preserve" approved="yes">
-				<source>Table</source>
+				<source>Table Head</source>
 			</trans-unit>
 			<trans-unit id="groups.table" xml:space="preserve" approved="yes">
 				<source>Table</source>
@@ -15,28 +15,11 @@
 			<trans-unit id="properties.color.selectBoxEditor.values.normal" xml:space="preserve" approved="yes">
 				<source>Normal</source>
 			</trans-unit>
+			<trans-unit id="properties.color.selectBoxEditor.values.default" xml:space="preserve" approved="yes">
+				<source>Default</source>
+			</trans-unit>
 			<trans-unit id="properties.color.selectBoxEditor.values.inverse" xml:space="preserve" approved="yes">
 				<source>Inverse</source>
-			</trans-unit>
-
-			<trans-unit id="properties.size" xml:space="preserve" approved="yes">
-				<source>Size</source>
-			</trans-unit>
-			<trans-unit id="properties.size.selectBoxEditor.values.normal" xml:space="preserve" approved="yes">
-				<source>Normal</source>
-			</trans-unit>
-			<trans-unit id="properties.size.selectBoxEditor.values.small" xml:space="preserve" approved="yes">
-				<source>Small</source>
-			</trans-unit>
-
-			<trans-unit id="properties.bordered" xml:space="preserve" approved="yes">
-				<source>Border</source>
-			</trans-unit>
-			<trans-unit id="properties.hoverable" xml:space="preserve" approved="yes">
-				<source>Highlight on hovering</source>
-			</trans-unit>
-			<trans-unit id="properties.responsive" xml:space="preserve" approved="yes">
-				<source>Scroll Overflowing Content</source>
 			</trans-unit>
 		</body>
 	</file>

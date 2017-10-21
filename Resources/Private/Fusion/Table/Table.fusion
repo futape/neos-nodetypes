@@ -5,17 +5,11 @@ prototype(Futape.NodeTypes:Table) < prototype(Futape.Bootstrap:Table) {
 	hoverable = ${q(node).property('hoverable')}
 	responsive = ${q(node).property('responsive')}
 
-	head {
-		color = ${q(node).property('headColor')}
-
-		content = Neos.Fusion:Value {
-			@context.node = ${Neos.Node.nearestContentCollection(node, 'head')}
-			value = Neos.Neos:ContentCollectionRenderer
-		}
+	head = Neos.Neos:ContentCase {
+		@context.node = ${Neos.Node.nearestContentCollection(node, 'head')}
 	}
 
-	body = Neos.Fusion:Value {
+	body = Neos.Neos:ContentCase {
 		@context.node = ${Neos.Node.nearestContentCollection(node, 'body')}
-		value = Neos.Neos:ContentCollectionRenderer
 	}
 }

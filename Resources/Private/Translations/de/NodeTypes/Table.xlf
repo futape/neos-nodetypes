@@ -49,23 +49,6 @@
 				<source>Scroll Overflowing Content</source>
 				<target xml:lang="de">Überschüssigen Inhalt scrollbar machen</target>
 			</trans-unit>
-
-			<trans-unit id="properties.headColor" xml:space="preserve" approved="yes">
-				<source>Table Head Color</source>
-				<target xml:lang="de">Tabellenkopf Farbe</target>
-			</trans-unit>
-			<trans-unit id="properties.headColor.selectBoxEditor.values.normal" xml:space="preserve" approved="yes">
-				<source>Normal</source>
-				<target xml:lang="de">Normal</target>
-			</trans-unit>
-			<trans-unit id="properties.headColor.selectBoxEditor.values.default" xml:space="preserve" approved="yes">
-				<source>Default</source>
-				<target xml:lang="de">Standard</target>
-			</trans-unit>
-			<trans-unit id="properties.headColor.selectBoxEditor.values.inverse" xml:space="preserve" approved="yes">
-				<source>Inverse</source>
-				<target xml:lang="de">Invertiert</target>
-			</trans-unit>
 		</body>
 	</file>
 </xliff>

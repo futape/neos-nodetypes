@@ -1,0 +1,9 @@
+prototype(Futape.NodeTypes:TableHead) < prototype(Futape.Bootstrap:TableHead) {
+	color = ${q(node).property('color')}
+
+	value = Neos.Neos:ContentCollection {
+		@context.node = ${node}
+
+		content = Neos.Neos:ContentCollectionRenderer
+	}
+}

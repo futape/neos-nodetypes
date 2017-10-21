@@ -1,0 +1,9 @@
+prototype(Futape.NodeTypes:Alert) < prototype(Futape.Bootstrap:Alert) {
+	color = ${q(node).property('color')}
+	dismissible = ${q(node).property('dismissible')}
+
+	content = Neos.Neos:ContentCollection {
+		nodePath = 'main'
+		tagName = 'div'
+	}
+}

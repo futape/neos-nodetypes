@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
+	<file original="" product-name="Futape.NodeTypes" source-language="en" datatype="plaintext" target-language="de">
+		<body>
+			<trans-unit id="ui.label" xml:space="preserve" approved="yes">
+				<source>Alert</source>
+				<target xml:lang="de">Warnung</target>
+			</trans-unit>
+			<trans-unit id="groups.link" xml:space="preserve" approved="yes">
+				<source>Alert</source>
+				<target xml:lang="de">Warnung</target>
+			</trans-unit>
+
+			<trans-unit id="properties.color" xml:space="preserve" approved="yes">
+				<source>Color</source>
+				<target xml:lang="de">Farbe</target>
+			</trans-unit>
+			<trans-unit id="properties.color.selectBoxEditor.values.primary" xml:space="preserve" approved="yes">
+				<source>Primary Color</source>
+				<target xml:lang="de">Primärfarbe</target>
+			</trans-unit>
+			<trans-unit id="properties.color.selectBoxEditor.values.secondary" xml:space="preserve" approved="yes">
+				<source>Secondary Color</source>
+				<target xml:lang="de">Sekundärfarbe</target>
+			</trans-unit>
+			<trans-unit id="properties.color.selectBoxEditor.values.success" xml:space="preserve" approved="yes">
+				<source>"Success" Color</source>
+				<target xml:lang="de">"Erfolg" Farbe</target>
+			</trans-unit>
+			<trans-unit id="properties.color.selectBoxEditor.values.danger" xml:space="preserve" approved="yes">
+				<source>"Danger" Color</source>
+				<target xml:lang="de">"Gefahr" Farbe</target>
+			</trans-unit>
+			<trans-unit id="properties.color.selectBoxEditor.values.warning" xml:space="preserve" approved="yes">
+				<source>"Warning" Color</source>
+				<target xml:lang="de">"Warnung" Farbe</target>
+			</trans-unit>
+			<trans-unit id="properties.color.selectBoxEditor.values.info" xml:space="preserve" approved="yes">
+				<source>"Info" Color</source>
+				<target xml:lang="de">"Info" Farbe</target>
+			</trans-unit>
+			<trans-unit id="properties.color.selectBoxEditor.values.light" xml:space="preserve" approved="yes">
+				<source>Light</source>
+				<target xml:lang="de">Hell</target>
+			</trans-unit>
+			<trans-unit id="properties.color.selectBoxEditor.values.dark" xml:space="preserve" approved="yes">
+				<source>Dark</source>
+				<target xml:lang="de">Dunkel</target>
+			</trans-unit>
+
+			<trans-unit id="properties.dismissible" xml:space="preserve" approved="yes">
+				<source>Dismissible</source>
+				<target xml:lang="de">Schließbar</target>
+			</trans-unit>
+		</body>
+	</file>
+</xliff>
